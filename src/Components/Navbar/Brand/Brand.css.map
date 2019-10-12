@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACgDA,OAAO,CAAC,sEAAI",
+    "mappings": "ACgDA,OAAO,CAAC,sEAAI;AD9CZ,AACE,gBADc,CACd,EAAE,CAAC;EACD,UAAU,EAAE,KAAK;CAClB;;AAHH,AAIE,gBAJc,CAId,IAAI,CAAC;EACH,KAAK,ECgCI,IAAI;ED/Bb,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;CACT",
     "sources": [
         "Brand.scss",
         "../../utils.scss"

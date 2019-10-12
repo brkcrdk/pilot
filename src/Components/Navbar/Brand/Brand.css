@@ -1,2 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+#brand-container h3 {
+  margin-top: 0.5em;
+}
+
+#brand-container span {
+  color: grey;
+  position: absolute;
+  top: 3em;
+}
 /*# sourceMappingURL=Brand.css.map */

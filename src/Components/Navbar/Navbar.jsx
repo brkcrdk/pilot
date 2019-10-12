@@ -68,6 +68,9 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <div className="container">
+        <span>right now</span>
+      </div>
     </div>
   );
 };

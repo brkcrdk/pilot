@@ -1,1 +1,12 @@
 @import "../../utils.scss";
+
+#brand-container {
+  h3 {
+    margin-top: 0.5em;
+  }
+  span {
+    color: color(contentBg);
+    position: absolute;
+    top: 3em;
+  }
+}
