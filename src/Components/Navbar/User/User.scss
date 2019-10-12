@@ -6,7 +6,7 @@
   color: color(orange);
   #desktop {
     @include desktop {
-      margin-left: 4em;
+      margin-left: 2em;
       margin-top: 1em;
     }
     li {
@@ -14,9 +14,10 @@
     }
     i {
       padding-top: 0.2em;
-      margin: 0 2em;
+      margin: 0;
       position: relative;
-      left: -1em;
+      margin: 0 1em;
+      // left: -1em;
     }
     @include mobileS {
       display: none;

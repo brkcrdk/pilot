@@ -4,9 +4,9 @@ const User = () => {
   return (
     <ul id="user-links">
       <div id="desktop">
-        <li>User Link</li>
+        <li>User</li>
         <i class="fas fa-user" />
-        <li>User Link</li>
+        <li>Login</li>
         <i class="fas fa-sign-in-alt" />
       </div>
       <div id="mobile">

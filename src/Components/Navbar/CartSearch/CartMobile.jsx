@@ -1,9 +1,9 @@
 import React from "react";
 import "./CartSearch.css";
-const CartSearch = () => {
+const CartMobile = () => {
   return (
     <ul id="search-cart">
-      <div id="desktop">
+      <div id="mobile">
         <li>
           <i class="fas fa-shopping-cart" /> 0
         </li>
@@ -15,4 +15,4 @@ const CartSearch = () => {
   );
 };
 
-export default CartSearch;
+export default CartMobile;

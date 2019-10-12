@@ -2,15 +2,22 @@
 
 #search-cart {
   display: flex;
-  margin: 0 1em;
-  #mobile {
-    display: flex;
+  justify-content: center;
+  margin: 0 0.5em;
+  #desktop {
     margin: 0 1em;
+    @include mobileS {
+      display: none;
+    }
     @include desktop {
+      display: flex;
       margin: 0;
     }
     li,
     i {
+      position: relative;
+      left: -1em;
+      padding-left: 1em;
       color: color(orange);
     }
     li {
@@ -20,8 +27,36 @@
       justify-content: center;
       align-items: center;
       @include desktop {
-        margin: 0;
+        margin: 0 0.5em;
       }
+    }
+  }
+}
+
+#search-cart {
+  #mobile {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 1.3em;
+    right: 5em;
+    color: color(orange);
+    @include mobileS {
+      right: 3.5em;
+    }
+    @include tablet {
+      right: 5em;
+    }
+    li {
+      list-style-type: none;
+      margin: 0 1em;
+      @include mobileS {
+        margin: 0 0.5em;
+      }
+    }
+    @include desktop {
+      display: none;
     }
   }
 }
