@@ -1,3 +1,27 @@
-// #search-cart {
-//   display: flex;
-// }
+@import "../../utils.scss";
+
+#search-cart {
+  display: flex;
+  margin: 0 1em;
+  #mobile {
+    display: flex;
+    margin: 0 1em;
+    @include desktop {
+      margin: 0;
+    }
+    li,
+    i {
+      color: color(orange);
+    }
+    li {
+      list-style-type: none;
+      margin: 0 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include desktop {
+        margin: 0;
+      }
+    }
+  }
+}

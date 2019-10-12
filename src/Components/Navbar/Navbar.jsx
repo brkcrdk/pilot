@@ -3,7 +3,7 @@ import "./Navbar.css";
 import Brand from "./Brand/Brand";
 import Links from "./Links/Links";
 import User from "./User/User";
-// import CartSearch from "./CartSearch/CartSearch";
+import CartSearch from "./CartSearch/CartSearch";
 const Navbar = () => {
   return (
     <div id="nav-container">
@@ -25,9 +25,11 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <Links />
             <User />
+            <CartSearch />
           </div>
         </div>
       </nav>
+
       <div className="container">
         <span>right now</span>
       </div>

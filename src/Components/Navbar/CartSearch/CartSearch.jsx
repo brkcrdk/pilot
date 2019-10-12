@@ -3,12 +3,14 @@ import "./CartSearch.css";
 const CartSearch = () => {
   return (
     <ul id="search-cart">
-      <li>
-        <i class="fas fa-shopping-cart"></i>
-      </li>
-      <li>
-        <i class="fas fa-search"></i>
-      </li>
+      <div id="mobile">
+        <li>
+          <i class="fas fa-shopping-cart" /> 0
+        </li>
+        <li>
+          <i class="fas fa-search" />
+        </li>
+      </div>
     </ul>
   );
 };
