@@ -1,0 +1,26 @@
+$desktop:840px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+//Renk seçme function 
+$colors:(containerBg:red, contentBg:grey, borders:white);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+//Fonts 
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+$baloo:'Baloo Bhai',
+cursive;
+
+$fonts:(baloo:$baloo);
+
+@function font($font-name) {
+    @return map-get($fonts, $font-name)
+}
