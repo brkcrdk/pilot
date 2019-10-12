@@ -1,34 +1,7 @@
 import React from "react";
-import fortnite from "./images/fortnite.jpg";
-import lol from "./images/lol.jpg";
-import pubg from "./images/pubg.jpg";
-import tacticforce from "./images/tacticforce.jpg";
-import wow from "./images/wow.jpg";
+import { slides } from "../../Content/Content";
 import "./CarouselStyle.css";
 const Carousel = () => {
-  const slides = [
-    {
-      imgUrl: fortnite,
-      isActive: true,
-      name: "Fortnite",
-      discount: "15",
-      price: "100"
-    },
-    { imgUrl: lol, name: "League of Legends", discount: "20", price: "100" },
-    {
-      imgUrl: pubg,
-      name: "PlayerUnknown's BattleGrounds",
-      discount: "15",
-      price: "100"
-    },
-    {
-      imgUrl: tacticforce,
-      name: "Tactic Force",
-      discount: "15",
-      price: "100"
-    },
-    { imgUrl: wow, name: "World of Warcraft", discount: "15", price: "100" }
-  ];
   return (
     <div id="carousel-container">
       <div id="carousel-main" className="carousel slide" data-ride="carousel">
