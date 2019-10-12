@@ -17,7 +17,7 @@ const Carousel = () => {
     { imgUrl: lol, name: "League of Legends", discount: "20", price: "100" },
     {
       imgUrl: pubg,
-      name: "PUBG: Player Unknown Battle Ground",
+      name: "PlayerUnknown's BattleGrounds",
       discount: "15",
       price: "100"
     },
@@ -62,10 +62,13 @@ const Carousel = () => {
                       id="slide-content">
                       <p>{slides.name}</p>
                       <div>
-                        <span>{`${discount}%`}</span>
-                        <span>{((100 - discount) / 100) * price}</span>
-                        <button type="button" class="btn btn-outline-danger">
-                          Danger
+                        <span className="badge badge-danger">{`${discount}%`}</span>
+                        <span className="badge badge-light">
+                          {((100 - discount) / 100) * price}
+                        </span>
+                        <button type="button" class="btn btn-dark">
+                          <i className="fas fa-cart-plus" />
+                          Sepete Ekle
                         </button>
                       </div>
                     </div>

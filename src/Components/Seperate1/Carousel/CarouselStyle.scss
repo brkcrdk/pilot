@@ -16,6 +16,12 @@
     @include desktop {
       height: 70vh;
     }
+    @include desktop {
+      height: 70vh;
+    }
+    @include wideScreen {
+      height: 50vh;
+    }
   }
 }
 
@@ -23,5 +29,24 @@
   #slide-content {
     display: flex;
     justify-content: space-between;
+    font-family: font(montSerrat);
+
+    p {
+      margin-left: -1em;
+      color: lightgray;
+      text-shadow: 0.5px -1px white;
+      font-size: 1em;
+      font-family: font(montSerrat);
+    }
+    span {
+      font-size: 1em;
+      margin: 0 0.5em;
+    }
+    button {
+      i {
+        padding: 0 5px;
+      }
+      font-size: 0.8em;
+    }
   }
 }
