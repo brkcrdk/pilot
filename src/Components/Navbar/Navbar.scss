@@ -15,19 +15,12 @@
 // }
 @import "../utils.scss";
 
-#navbar-container {
+#nav-container {
   background-color: color(containerBg);
-  padding: 0;
-  padding-bottom: 1.5em;
-
-  // Navbar içerisindeki genel link özellikleri
-  li {
-    margin: 1em 1em 0 0.5em;
-    list-style-type: none;
-  }
+  padding: 2em 0;
 }
 
-#navbar-content {
+#nav-content {
   padding: 0;
   margin: 0;
   background-color: color(contentBg);
@@ -35,12 +28,10 @@
   border-bottom: 1px solid color(borders);
   display: flex;
   justify-content: space-evenly;
-
-  #left-side {
-    display: flex;
+  .navbar-brand {
+    font-family: font(baloo);
   }
-
-  #right-side {
-    display: flex;
+  a {
+    color: color(containerBg);
   }
 }

@@ -4,7 +4,10 @@ import Seperate1 from "./Components/Seperate1/Seperate1";
 function App() {
   return (
     <div className="">
-      <Navbar />
+      <div className="">
+        <Navbar />
+      </div>
+      <Seperate1 />
     </div>
   );
 }

@@ -1,6 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
 #user-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media (min-width: 320px) {
+  #user-links li {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #user-links li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 320px) {
+  #user-links i {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1em;
+    padding: 0 0.7em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=User.css.map */

@@ -1,3 +1,22 @@
+@import "../../utils.scss";
 #user-links {
-    display: flex;
+  display: flex;
+
+  li {
+    @include mobileS {
+      display: none;
+    }
+    @include tablet {
+      display: flex;
+    }
+  }
+  i {
+    @include mobileS {
+      display: flex;
+      margin-top: 1em;
+      padding: 0 0.7em;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
