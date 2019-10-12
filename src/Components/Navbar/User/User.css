@@ -11,18 +11,23 @@
           align-items: center;
 }
 
+#user-links #desktop li,
+#user-links #desktop i {
+  color: orange;
+}
+
 @media (min-width: 992px) {
-  #user-links color:color() #desktop {
+  #user-links #desktop {
     margin-left: 4em;
     margin-top: 1em;
   }
 }
 
-#user-links color:color() #desktop li {
+#user-links #desktop li {
   list-style-type: none;
 }
 
-#user-links color:color() #desktop i {
+#user-links #desktop i {
   padding-top: 0.2em;
   margin: 0 2em;
   position: relative;
@@ -30,13 +35,13 @@
 }
 
 @media (min-width: 320px) {
-  #user-links color:color() #desktop {
+  #user-links #desktop {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  #user-links color:color() #desktop {
+  #user-links #desktop {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
