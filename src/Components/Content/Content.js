@@ -10,20 +10,40 @@ export const slides = [
     isActive: true,
     name: "Fortnite",
     discount: "15",
-    price: "100"
+    price: "100",
+    isBonus: true,
+    comingSoon: true
   },
-  { imgUrl: lol, name: "League of Legends", discount: "20", price: "100" },
+  {
+    imgUrl: lol,
+    name: "League of Legends",
+    discount: "20",
+    price: "100",
+    isBonus: false,
+    comingSoon: false
+  },
   {
     imgUrl: pubg,
     name: "PlayerUnknown's BattleGrounds",
     discount: "15",
-    price: "100"
+    price: "100",
+    isBonus: false,
+    comingSoon: true
   },
   {
     imgUrl: tacticforce,
     name: "Tactic Force",
     discount: "15",
-    price: "100"
+    price: "100",
+    isBonus: true,
+    comingSoon: false
   },
-  { imgUrl: wow, name: "World of Warcraft", discount: "15", price: "100" }
+  {
+    imgUrl: wow,
+    name: "World of Warcraft",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: true
+  }
 ];

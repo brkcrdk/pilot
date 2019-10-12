@@ -2,23 +2,23 @@ import React from "react";
 const Accordions = (props) => {
   return (
     <>
-      <div className="card-header" id="headingOne">
-        <h2 className="mb-0">
+      <div className="card-header" id={props.headingId}>
+        <h5 className="mb-0">
           <button
             className="btn"
             type="button"
             data-toggle="collapse"
-            data-target="#collapseOne"
+            data-target={`#${props.collapseId}`}
             aria-expanded="true"
-            aria-controls="collapseOne">
+            aria-controls={props.collapseId}>
             {props.header}
           </button>
-        </h2>
+        </h5>
       </div>
       <div
-        id="collapseOne"
+        id={props.collapseId}
         className="collapse show"
-        aria-labelledby="headingOne"
+        aria-labelledby={props.headingId}
         data-parent="#accordionExample">
         <div className="card-body">{props.content}</div>
       </div>

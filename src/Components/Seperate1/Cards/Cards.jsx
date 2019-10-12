@@ -7,7 +7,7 @@ const Cards = () => {
     <>
       <div id="mobileCards" className="container-fluid">
         <div className="accordion" id="accordionExample">
-          <div className="card" style={{ borderRadius: "1em" }}>
+          <div className="card">
             <Accordion />
           </div>
         </div>
