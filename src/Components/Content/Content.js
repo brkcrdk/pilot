@@ -25,15 +25,6 @@ export const slides = [
     comingSoon: false
   },
   {
-    id: "Three",
-    imgUrl: pubg,
-    name: "PlayerUnknown's BattleGrounds",
-    discount: "15",
-    price: "100",
-    isBonus: false,
-    comingSoon: true
-  },
-  {
     id: "Four",
     imgUrl: tacticforce,
     name: "Tactic Force",
@@ -49,6 +40,15 @@ export const slides = [
     discount: "15",
     price: "100",
     isBonus: true,
+    comingSoon: true
+  },
+  {
+    id: "Three",
+    imgUrl: pubg,
+    name: "PlayerUnknown's BattleGrounds",
+    discount: "15",
+    price: "100",
+    isBonus: false,
     comingSoon: true
   }
 ];

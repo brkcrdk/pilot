@@ -11,23 +11,31 @@ const Cards = () => {
           <div className="card">
             {slides
               .filter((item, index) => {
-                return index < 5;
+                return index < 4;
               })
-              .map((slide, index) => (
-                <Accordion
-                  id={slide.id}
-                  header={slide.name}
-                  content={
-                    <Card
-                      img={slide.imgUrl}
-                      comingSoon={slide.comingSoon}
-                      title={slide.name}
-                      isBonus={slide.isBonus}
-                    />
-                  }
-                  comingSoon={slide.comingSoon}
-                />
-              ))}
+              .map((slide, index) => {
+                const price = parseFloat(slide.price);
+                const discount = parseFloat(slide.discount);
+                const netPrice = ((100 - discount) / 100) * price;
+                return (
+                  <Accordion
+                    id={slide.id}
+                    header={slide.name}
+                    content={
+                      <Card
+                        img={slide.imgUrl}
+                        comingSoon={slide.comingSoon}
+                        title={slide.name}
+                        isBonus={slide.isBonus}
+                        price={price}
+                        discount={discount}
+                        netPrice={netPrice}
+                      />
+                    }
+                    comingSoon={slide.comingSoon}
+                  />
+                );
+              })}
           </div>
         </div>
       </div>

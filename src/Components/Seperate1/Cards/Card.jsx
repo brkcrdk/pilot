@@ -7,7 +7,7 @@ const Card = (props) => {
           className="badge badge-dark"
           style={{
             position: "absolute",
-            top: "50%",
+            top: "10em",
             left: "1em"
           }}>
           Yakında{" "}
@@ -21,14 +21,16 @@ const Card = (props) => {
         <div
           style={{
             display: "flex",
-            justifyContent: "space-between",
+            justifyContent: "flex-end",
             alignItems: "flex-end"
           }}>
           {props.isBonus ? <span>Bonus</span> : ""}
           <span>{props.discount}</span>
           <div style={{ display: "grid" }}>
-            <span>{props.discount}</span>
-            <span>{props.price}</span>
+            <span style={{ textDecoration: "line-through" }}>
+              {props.price}
+            </span>
+            <span>{props.netPrice}</span>
           </div>
         </div>
       </div>
