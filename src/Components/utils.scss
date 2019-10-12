@@ -1,11 +1,11 @@
 $mobileS: 320px;
 $mobileM: 375px;
 $mobileL: 425px;
-$mobileTablet: 564px;
+//Bootstrap size
+$phones: 576px;
 $tablet: 768px;
-$laptop: 1024px;
-// $desktop: 992px;
-// $desktopL: 1200px;
+$desktop: 992px;
+$desktopL: 1200px;
 
 @mixin mobileS {
   @media (min-width:#{$mobileS}) {
@@ -22,18 +22,28 @@ $laptop: 1024px;
     @content;
   }
 }
+@mixin phones {
+  @media (min-width:#{$phones}) {
+    @content;
+  }
+}
 @mixin tablet {
   @media (min-width:#{$tablet}) {
     @content;
   }
 }
 
-@mixin laptop {
-  @media (min-width: #{$laptop}) {
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
     @content;
   }
 }
 
+@mixin desktopL {
+  @media (min-width: #{$desktopL}) {
+    @content;
+  }
+}
 //Renk seçme function
 $colors: (
   containerBg: orange,

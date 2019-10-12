@@ -3,35 +3,63 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 992px) {
+  #user-links color:color() #desktop {
+    margin-left: 4em;
+    margin-top: 1em;
+  }
+}
+
+#user-links color:color() #desktop li {
+  list-style-type: none;
+}
+
+#user-links color:color() #desktop i {
+  padding-top: 0.2em;
+  margin: 0 2em;
+  position: relative;
+  left: -1em;
 }
 
 @media (min-width: 320px) {
-  #user-links li {
+  #user-links color:color() #desktop {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-  #user-links li {
+  #user-links color:color() #desktop {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
 
-@media (min-width: 320px) {
-  #user-links i {
+#user-links #mobile i {
+  margin: 0 1.5em;
+  position: relative;
+  left: -1em;
+}
+
+@media (min-width: 576px) {
+  #user-links #mobile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 1em;
-    padding: 0 0.7em;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #user-links #mobile {
+    display: none;
   }
 }
 /*# sourceMappingURL=User.css.map */
