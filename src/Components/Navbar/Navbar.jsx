@@ -31,7 +31,9 @@ const Navbar = () => {
       </nav>
 
       <div className="container">
-        <span>right now</span>
+        <span id="rightNow">
+          right<strong> now &#x27A4;</strong>
+        </span>
       </div>
     </div>
   );

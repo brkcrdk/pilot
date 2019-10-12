@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 #nav-container {
   background-color: orange;
-  padding: 2em 0;
-  border: 1px solid black;
+  padding: 2em 0 0.5em 0;
 }
 
 #nav-content {
@@ -25,5 +25,14 @@
 
 #nav-content a {
   color: orange;
+}
+
+#rightNow {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -1px;
+}
+
+#rightNow strong {
+  font-weight: 800;
 }
 /*# sourceMappingURL=Navbar.css.map */

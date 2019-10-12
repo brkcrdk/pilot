@@ -21,10 +21,11 @@
   font-family: "Baloo Bhai", cursive;
   font-weight: 100;
   font-size: 2em;
+  color: orange;
 }
 
 #splitter hr {
   margin-top: -0.6em;
-  border: 0.5px solid;
+  border: 0.5px solid grey;
 }
 /*# sourceMappingURL=Seperate1.css.map */

@@ -3,6 +3,12 @@
 #brand-container {
   h3 {
     margin-top: 0.5em;
+    @include mobileS {
+      margin-left: 0.5em;
+    }
+    @include desktop {
+      margin-left: 0;
+    }
   }
   span {
     color: color(grey);

@@ -1,6 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 #brand-container h3 {
   margin-top: 0.5em;
+}
+
+@media (min-width: 320px) {
+  #brand-container h3 {
+    margin-left: 0.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  #brand-container h3 {
+    margin-left: 0;
+  }
 }
 
 #brand-container span {

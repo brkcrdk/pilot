@@ -57,11 +57,12 @@ $colors: (
 
 //Fonts
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 $baloo: "Baloo Bhai", cursive;
-
+$montSerrat: "Montserrat", sans-serif;
 $fonts: (
-  baloo: $baloo
+  baloo: $baloo,
+  montSerrat: $montSerrat
 );
 
 @function font($font-name) {

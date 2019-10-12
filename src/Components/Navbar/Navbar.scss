@@ -2,9 +2,7 @@
 
 #nav-container {
   background-color: color(orange);
-  padding: 2em 0;
-
-  border: 1px solid black;
+  padding: 2em 0 0.5em 0;
 }
 
 #nav-content {
@@ -20,5 +18,13 @@
   }
   a {
     color: color(orange);
+  }
+}
+
+#rightNow {
+  font-family: font(montSerrat);
+  letter-spacing: -1px;
+  strong {
+    font-weight: 800;
   }
 }
