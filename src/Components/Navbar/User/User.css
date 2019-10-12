@@ -14,8 +14,14 @@
 
 @media (min-width: 992px) {
   #user-links #desktop {
-    margin-left: 2em;
+    margin-left: 5em;
     margin-top: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  #user-links #desktop {
+    margin-left: 15em;
   }
 }
 

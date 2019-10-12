@@ -4,7 +4,6 @@ import Brand from "./Brand/Brand";
 import Links from "./Links/Links";
 import User from "./User/User";
 import CartSearch from "./CartSearch/CartSearch";
-import CartMobile from "./CartSearch/CartMobile";
 const Navbar = () => {
   return (
     <div id="nav-container">
@@ -13,7 +12,6 @@ const Navbar = () => {
           <a className="navbar-brand" href="#?">
             <Brand />
           </a>
-          <CartMobile />
           <button
             className="navbar-toggler navbar-dark"
             type="button"

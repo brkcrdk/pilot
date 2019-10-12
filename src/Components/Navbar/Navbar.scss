@@ -1,29 +1,16 @@
-//Media queri leri buraya
-// $desktop:840px;
-
-// @mixin desktop {
-//     @media (min-width: #{$desktop}) {
-//         @content;
-//     }
-// }
-
-// //Renk seçme function
-// $colors:(containerBg:red, contentBg:grey, borders:white);
-
-// @function color($color-name) {
-//     @return map-get($colors, $color-name);
-// }
 @import "../utils.scss";
 
 #nav-container {
-  background-color: color(containerBg);
+  background-color: color(orange);
   padding: 2em 0;
+
+  border: 1px solid black;
 }
 
 #nav-content {
   padding: 0;
   margin: 0;
-  background-color: color(contentBg);
+  background-color: color(grey);
   border-top: 1px solid color(borders);
   border-bottom: 1px solid color(borders);
   display: flex;
@@ -32,6 +19,6 @@
     font-family: font(baloo);
   }
   a {
-    color: color(containerBg);
+    color: color(orange);
   }
 }

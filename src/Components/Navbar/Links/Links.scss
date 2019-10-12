@@ -7,7 +7,7 @@
   @include tablet {
     display: none;
   }
-  @include laptop {
+  @include desktop {
     display: flex;
   }
 }
