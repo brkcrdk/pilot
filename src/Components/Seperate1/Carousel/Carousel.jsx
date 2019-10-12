@@ -20,6 +20,7 @@ const Carousel = () => {
               {slides.map((slides, index) => {
                 const price = parseFloat(slides.price);
                 const discount = parseFloat(slides.discount);
+                const netPrice = ((100 - discount) / 100) * price;
                 return (
                   <div
                     className={`carousel-item ${
@@ -36,9 +37,7 @@ const Carousel = () => {
                       <p>{slides.name}</p>
                       <div>
                         <span className="badge badge-danger">{`${discount}%`}</span>
-                        <span className="badge badge-light">
-                          {((100 - discount) / 100) * price}
-                        </span>
+                        <span className="badge badge-light">{netPrice}</span>
                         <button type="button" class="btn btn-dark">
                           <i className="fas fa-cart-plus" />
                           Sepete Ekle
