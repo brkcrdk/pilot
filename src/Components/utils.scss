@@ -63,11 +63,17 @@ $colors: (
 //Fonts
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 $baloo: "Baloo Bhai", cursive;
 $montSerrat: "Montserrat", sans-serif;
+$fascinate: "Fascinate Inline", cursive;
+$permanent: "Permanent Marker", cursive;
 $fonts: (
   baloo: $baloo,
-  montSerrat: $montSerrat
+  montSerrat: $montSerrat,
+  fascinate: $fascinate,
+  permanent: $permanent
 );
 
 @function font($font-name) {

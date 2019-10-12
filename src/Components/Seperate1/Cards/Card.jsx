@@ -1,8 +1,22 @@
 import React from "react";
-
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="card container-fluid">
+      {props.comingSoon ? (
+        <span
+          style={{
+            position: "absolute",
+            fontSize: "2.5em",
+            top: "-0.7em",
+            right: "-0.5em",
+            transform: "rotate(90deg)",
+            color: "darkgreen"
+          }}>
+          Yakında..
+        </span>
+      ) : (
+        ""
+      )}
       <img
         src="https://picsum.photos/300/"
         alt="Avatar"
@@ -16,7 +30,7 @@ const Card = () => {
             justifyContent: "space-between",
             alignItems: "flex-end"
           }}>
-          <span>Bonus</span>
+          {props.isBonus ? <span>Bonus</span> : ""}
           <span>İndirim</span>
           <div style={{ display: "grid" }}>
             <span>İndirim</span>

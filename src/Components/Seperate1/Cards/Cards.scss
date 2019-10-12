@@ -8,7 +8,17 @@
     display: none;
   }
 }
-
+// #tabletCards {
+//   @include mobileL {
+//     display: none;
+//   }
+//   @include tablet {
+//     display: block;
+//   }
+//   @include desktop {
+//     display: none;
+//   }
+// }
 #desktopCards {
   @include mobileS {
     display: none;

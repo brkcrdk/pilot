@@ -6,6 +6,7 @@ import wow from "./Img/images/wow.jpg";
 
 export const slides = [
   {
+    id: "One",
     imgUrl: fortnite,
     isActive: true,
     name: "Fortnite",
@@ -15,6 +16,7 @@ export const slides = [
     comingSoon: true
   },
   {
+    id: "Two",
     imgUrl: lol,
     name: "League of Legends",
     discount: "20",
@@ -23,6 +25,7 @@ export const slides = [
     comingSoon: false
   },
   {
+    id: "Three",
     imgUrl: pubg,
     name: "PlayerUnknown's BattleGrounds",
     discount: "15",
@@ -31,6 +34,7 @@ export const slides = [
     comingSoon: true
   },
   {
+    id: "Four",
     imgUrl: tacticforce,
     name: "Tactic Force",
     discount: "15",
@@ -39,6 +43,7 @@ export const slides = [
     comingSoon: false
   },
   {
+    id: "Five",
     imgUrl: wow,
     name: "World of Warcraft",
     discount: "15",
