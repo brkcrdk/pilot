@@ -1,31 +1,28 @@
 import React from "react";
-
-const Accordions = () => {
+const Accordions = (props) => {
   return (
-    <div class="accordion" id="accordionExample">
-      <div class="card" style={{ borderRadius: "1em" }}>
-        <div class="card-header" id="headingOne">
-          <h2 class="mb-0">
-            <button
-              class="btn"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne">
-              Collapsible Group Item #1
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseOne"
-          class="collapse show"
-          aria-labelledby="headingOne"
-          data-parent="#accordionExample">
-          <div class="card-body">content</div>
-        </div>
+    <>
+      <div className="card-header" id="headingOne">
+        <h2 className="mb-0">
+          <button
+            className="btn"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne">
+            {props.header}
+          </button>
+        </h2>
       </div>
-    </div>
+      <div
+        id="collapseOne"
+        className="collapse show"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample">
+        <div className="card-body">{props.content}</div>
+      </div>
+    </>
   );
 };
 

@@ -6,9 +6,13 @@ const Cards = () => {
   return (
     <>
       <div id="mobileCards" className="container-fluid">
-        <Accordion />
+        <div className="accordion" id="accordionExample">
+          <div className="card" style={{ borderRadius: "1em" }}>
+            <Accordion />
+          </div>
+        </div>
       </div>
-      <div id="desktopCards">
+      <div id="desktopCards" className="container-fluid">
         <div className="row text-center">
           <div className="col-md-3">
             <Card />
