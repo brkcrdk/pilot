@@ -1,26 +1,59 @@
-$desktop:840px;
+$mobileS: 320px;
+$mobileM: 375px;
+$mobileL: 425px;
+$mobileTablet: 564px;
+$tablet: 768px;
+$laptop: 1024px;
+// $desktop: 992px;
+// $desktopL: 1200px;
 
-@mixin desktop {
-    @media (min-width: #{$desktop}) {
-        @content;
-    }
+@mixin mobileS {
+  @media (min-width:#{$mobileS}) {
+    @content;
+  }
+}
+@mixin mobileM {
+  @media (min-width:#{$mobileM}) {
+    @content;
+  }
+}
+@mixin mobileL {
+  @media (min-width:#{$mobileL}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width:#{$tablet}) {
+    @content;
+  }
 }
 
-//Renk seçme function 
-$colors:(containerBg:red, contentBg:grey, borders:white);
+@mixin laptop {
+  @media (min-width: #{$laptop}) {
+    @content;
+  }
+}
+
+//Renk seçme function
+$colors: (
+  containerBg: red,
+  contentBg: grey,
+  borders: white
+);
 
 @function color($color-name) {
-    @return map-get($colors, $color-name);
+  @return map-get($colors, $color-name);
 }
 
-//Fonts 
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+//Fonts
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
 
-$baloo:'Baloo Bhai',
-cursive;
+$baloo: "Baloo Bhai", cursive;
 
-$fonts:(baloo:$baloo);
+$fonts: (
+  baloo: $baloo
+);
 
 @function font($font-name) {
-    @return map-get($fonts, $font-name)
+  @return map-get($fonts, $font-name);
 }

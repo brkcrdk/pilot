@@ -4,7 +4,6 @@ const User = () => {
   return (
     <ul id="user-links">
       <li>USER LINK</li>
-      <li>ABOUT US</li>
       <li>SIGN IN</li>
     </ul>
   );

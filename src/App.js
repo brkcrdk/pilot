@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="">
       <Navbar />
-      <Seperate1 />
     </div>
   );
 }
