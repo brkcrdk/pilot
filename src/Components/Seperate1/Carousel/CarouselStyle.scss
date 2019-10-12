@@ -4,8 +4,24 @@
   width: 100%;
 
   img {
-    height: 70vh;
     width: 100%;
     padding-bottom: 1em;
+    object-fit: fill;
+    @include mobileS {
+      height: 35vh;
+    }
+    @include tablet {
+      height: 50vh;
+    }
+    @include desktop {
+      height: 70vh;
+    }
+  }
+}
+
+#carousel-container {
+  #slide-content {
+    display: flex;
+    justify-content: space-between;
   }
 }

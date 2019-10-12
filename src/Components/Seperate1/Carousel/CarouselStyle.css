@@ -5,8 +5,36 @@
 }
 
 #carousel-container img {
-  height: 70vh;
   width: 100%;
   padding-bottom: 1em;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+@media (min-width: 320px) {
+  #carousel-container img {
+    height: 35vh;
+  }
+}
+
+@media (min-width: 768px) {
+  #carousel-container img {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #carousel-container img {
+    height: 70vh;
+  }
+}
+
+#carousel-container #slide-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=CarouselStyle.css.map */

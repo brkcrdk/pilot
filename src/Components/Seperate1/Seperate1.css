@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 #seperate1-container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -15,6 +16,7 @@
           align-items: center;
   margin-bottom: 0;
   padding-bottom: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 #splitter p strong {
