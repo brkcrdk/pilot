@@ -17,7 +17,14 @@ const Cards = () => {
                 <Accordion
                   id={slide.id}
                   header={slide.name}
-                  content={<Card />}
+                  content={
+                    <Card
+                      img={slide.imgUrl}
+                      comingSoon={slide.comingSoon}
+                      title={slide.name}
+                      isBonus={slide.isBonus}
+                    />
+                  }
                   comingSoon={slide.comingSoon}
                 />
               ))}

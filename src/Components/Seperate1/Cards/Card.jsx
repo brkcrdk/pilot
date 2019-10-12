@@ -4,26 +4,20 @@ const Card = (props) => {
     <div className="card container-fluid">
       {props.comingSoon ? (
         <span
+          className="badge badge-dark"
           style={{
             position: "absolute",
-            fontSize: "2.5em",
-            top: "-0.7em",
-            right: "-0.5em",
-            transform: "rotate(90deg)",
-            color: "darkgreen"
+            top: "50%",
+            left: "1em"
           }}>
-          Yakında..
+          Yakında{" "}
         </span>
       ) : (
         ""
       )}
-      <img
-        src="https://picsum.photos/300/"
-        alt="Avatar"
-        style={{ width: "100%" }}
-      />
+      <img src={props.img} alt="Avatar" style={{ width: "100%" }} />
       <div id="card-content">
-        <h5>Title</h5>
+        <h6>{props.title}</h6>
         <div
           style={{
             display: "flex",
@@ -31,10 +25,10 @@ const Card = (props) => {
             alignItems: "flex-end"
           }}>
           {props.isBonus ? <span>Bonus</span> : ""}
-          <span>İndirim</span>
+          <span>{props.discount}</span>
           <div style={{ display: "grid" }}>
-            <span>İndirim</span>
-            <span>Fiyat</span>
+            <span>{props.discount}</span>
+            <span>{props.price}</span>
           </div>
         </div>
       </div>
