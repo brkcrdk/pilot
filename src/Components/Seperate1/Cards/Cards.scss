@@ -1,0 +1,20 @@
+@import "../../utils.scss";
+
+#mobileCards {
+  @include mobileL {
+    display: block;
+  }
+  @include tablet {
+    display: none;
+  }
+}
+
+#desktopCards {
+  @include mobileS {
+    display: none;
+  }
+
+  @include tablet {
+    display: block;
+  }
+}
