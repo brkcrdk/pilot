@@ -1,0 +1,37 @@
+@import "../../utils.scss";
+
+#figure-container {
+  font-family: font(montSerrat);
+  color: white;
+
+  img {
+    width: 9.5em;
+    height: 9em;
+    @include desktop {
+      width: 13em;
+      height: 10em;
+    }
+    @include desktopL {
+      width: 15em;
+      height: 10em;
+    }
+  }
+  #figure-caption {
+    position: relative;
+    top: -1em;
+    margin-top: -3em;
+  }
+  #figure-bottom {
+    padding: 0 0.5em;
+    display: flex;
+    justify-content: space-between;
+    :last-child {
+      @include desktop {
+        margin-right: 0.5em;
+      }
+    }
+    i {
+      margin-right: 0.5em;
+    }
+  }
+}
