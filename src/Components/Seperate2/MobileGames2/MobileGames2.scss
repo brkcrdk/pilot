@@ -1,0 +1,11 @@
+@import "../../utils.scss";
+
+#mobile-games2-card {
+  @include mobileS {
+    display: block;
+  }
+
+  @include tablet {
+    display: none;
+  }
+}

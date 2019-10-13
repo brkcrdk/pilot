@@ -5,7 +5,7 @@ import { slides } from "../../Content/Content";
 const Games2 = () => {
   return (
     <div className="container-fluid">
-      <div className="row text-center">
+      <div className="row text-center" id="games2-desktop">
         <div className="row">
           <div className="col-md-6" id="big">
             {slides

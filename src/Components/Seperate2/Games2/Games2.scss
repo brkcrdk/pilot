@@ -1,5 +1,15 @@
+@import "../../utils.scss";
+#games2-desktop {
+  @include mobileS {
+    display: none;
+  }
+  @include tablet {
+    display: block;
+  }
+}
 #big {
   img {
-    height: 80%;
+    height: 70%;
   }
+  margin-bottom: 1em;
 }

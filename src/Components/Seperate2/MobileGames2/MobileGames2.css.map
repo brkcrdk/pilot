@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACgEA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,kEAAI;AAzDV,MAAM,EAAE,SAAS,EAAE,KAAK;EDT1B,AAAA,mBAAmB,CAAC;IAEhB,OAAO,EAAE,KAAK;GAMjB;;;ACqBC,MAAM,EAAE,SAAS,EAAE,KAAK;ED7B1B,AAAA,mBAAmB,CAAC;IAMhB,OAAO,EAAE,IAAI;GAEhB",
+    "sources": [
+        "MobileGames2.scss",
+        "../../utils.scss"
+    ],
+    "names": [],
+    "file": "MobileGames2.css"
+}

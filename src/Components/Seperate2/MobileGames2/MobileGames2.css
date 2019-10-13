@@ -4,22 +4,14 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
 @media (min-width: 320px) {
-  #games2-desktop {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  #games2-desktop {
+  #mobile-games2-card {
     display: block;
   }
 }
 
-#big {
-  margin-bottom: 1em;
+@media (min-width: 768px) {
+  #mobile-games2-card {
+    display: none;
+  }
 }
-
-#big img {
-  height: 70%;
-}
-/*# sourceMappingURL=Games2.css.map */
+/*# sourceMappingURL=MobileGames2.css.map */

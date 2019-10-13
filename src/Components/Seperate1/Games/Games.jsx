@@ -7,30 +7,28 @@ const Games = () => {
   return (
     <>
       <div id="mobileCards" className="container-fluid">
-        <div className="accordion" id="accordionExample">
-          <div className="card">
-            {slides
-              .filter((item, index) => {
-                return index < 4;
-              })
-              .map((slide, index) => {
-                const price = parseFloat(slide.price);
-                const discount = parseFloat(slide.discount);
-                const netPrice = ((100 - discount) / 100) * price;
-                return (
-                  <MobileCard
-                    key={index}
-                    image={slide.imgUrl}
-                    title={slide.name}
-                    comingSoon={slide.comingSoon}
-                    bonus={slide.isBonus}
-                    discount={discount}
-                    price={price}
-                    netPrice={netPrice}
-                  />
-                );
-              })}
-          </div>
+        <div className="card">
+          {slides
+            .filter((item, index) => {
+              return index < 4;
+            })
+            .map((slide, index) => {
+              const price = parseFloat(slide.price);
+              const discount = parseFloat(slide.discount);
+              const netPrice = ((100 - discount) / 100) * price;
+              return (
+                <MobileCard
+                  key={index}
+                  image={slide.imgUrl}
+                  title={slide.name}
+                  comingSoon={slide.comingSoon}
+                  bonus={slide.isBonus}
+                  discount={discount}
+                  price={price}
+                  netPrice={netPrice}
+                />
+              );
+            })}
         </div>
       </div>
       <div id="desktopCards" className="container-fluid">
