@@ -1,5 +1,6 @@
 import React from "react";
 import "./MobileCard.css";
+
 const MobileCard = (props) => {
   return (
     <div className="card" id="mobile-card">

@@ -1,10 +1,17 @@
 @import "../../utils.scss";
-
+#bonus {
+  font-family: font(grenze);
+  font-size: 1.5em;
+  color: color(grey);
+}
+.card {
+  border: none;
+  background-color: color(backGround);
+  border-radius: 0;
+}
 #mobileCards {
   font-family: font(montSerrat);
-  #mobile-content {
-    border: none;
-  }
+
   @include mobileL {
     display: block;
   }
@@ -15,6 +22,7 @@
 
 #desktopCards {
   font-family: font(montSerrat);
+
   @include mobileS {
     display: none;
   }
