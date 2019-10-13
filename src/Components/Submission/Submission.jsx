@@ -1,6 +1,6 @@
 import React from "react";
-import Figures from "./Figures/Figures";
-import MobileFigures from "./MobileFigures/MobileFigures";
+// import Figures from "./Figures/Figures";
+// import MobileFigures from "./MobileFigures/MobileFigures";
 import Carousel from "./Carousel/Carousel";
 const Submission = () => {
   return (

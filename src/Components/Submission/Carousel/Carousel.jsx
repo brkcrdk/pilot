@@ -1,5 +1,5 @@
 import React from "react";
-import Figures from "../Figures/Figures";
+// import Figures from "../Figures/Figures";
 const Carousel = (props) => {
   return (
     <div className="container-fluid">
