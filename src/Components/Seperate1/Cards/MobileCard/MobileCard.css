@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+#mobile-card img {
+  border-radius: 0;
+}
+
+@media (min-width: 320px) {
+  #mobile-card img {
+    width: 8.5em;
+    height: 8em;
+  }
+}
+
+@media (min-width: 375px) {
+  #mobile-card img {
+    width: 10em;
+    height: 9em;
+  }
+}
+
+@media (min-width: 425px) {
+  #mobile-card img {
+    width: 11em;
+    height: 10em;
+  }
+}
+
+#mobile-card {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+  #mobile-card .card-body {
+    margin-left: 0.5em;
+  }
+}
+
+@media (min-width: 375px) {
+  #mobile-card .card-body {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 425px) {
+  #mobile-card .card-body {
+    margin-left: 2.5em;
+  }
+}
+
+#mobile-card #badge-title {
+  margin-top: -1em;
+}
+
+@media (min-width: 320px) {
+  #mobile-card #badge-title h6 {
+    margin-bottom: -1em;
+  }
+}
+
+@media (min-width: 375px) {
+  #mobile-card #badge-title h6 {
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (min-width: 425px) {
+  #mobile-card #badge-title h6 {
+    margin-bottom: 1em;
+  }
+}
+
+#mobile-card #card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#mobile-card #card-bottom #prices,
+#mobile-card #card-bottom #bonus {
+  display: -ms-grid;
+  display: grid;
+}
+
+@media (min-width: 320px) {
+  #mobile-card #card-bottom #prices,
+  #mobile-card #card-bottom #bonus {
+    margin-top: 2em;
+    margin-bottom: -1em;
+    margin-left: 0.5em;
+  }
+}
+
+@media (min-width: 375px) {
+  #mobile-card #card-bottom #prices,
+  #mobile-card #card-bottom #bonus {
+    margin-bottom: -1em;
+    margin-left: 0.5em;
+  }
+}
+
+#mobile-card #card-bottom #prices #text,
+#mobile-card #card-bottom #bonus #text {
+  text-decoration: line-through;
+}
+
+#mobile-card #card-bottom #bonus span:first-child {
+  padding-bottom: 1em;
+}
+
+#badge-title .badge {
+  position: relative;
+}
+
+@media (min-width: 320px) {
+  #badge-title .badge {
+    left: -5em;
+    top: -0.5em;
+  }
+}
+
+@media (min-width: 375px) {
+  #badge-title .badge {
+    top: -0.5em;
+    left: -6em;
+  }
+}
+
+@media (min-width: 425px) {
+  #badge-title .badge {
+    top: -0.5em;
+    left: -8em;
+  }
+}
+/*# sourceMappingURL=MobileCard.css.map */

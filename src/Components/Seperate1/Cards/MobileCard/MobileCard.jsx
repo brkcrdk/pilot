@@ -22,13 +22,11 @@ const MobileCard = (props) => {
             <div className="row" id="card-bottom">
               <div id="bonus">
                 <span>Bonus</span>
+                <span>-%15</span>
               </div>
               <div id="prices">
-                <span>-%15</span>
-                <div id="net-price">
-                  <span>100</span>
-                  <span>85</span>
-                </div>
+                <span id="text">100</span>
+                <span>85</span>
               </div>
             </div>
           </div>

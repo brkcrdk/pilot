@@ -2,9 +2,18 @@
 
 #mobile-card {
   img {
+    border-radius: 0;
     @include mobileS {
-      width: 8em;
+      width: 8.5em;
       height: 8em;
+    }
+    @include mobileM {
+      width: 10em;
+      height: 9em;
+    }
+    @include mobileL {
+      width: 11em;
+      height: 10em;
     }
   }
 }
@@ -12,15 +21,74 @@
   display: grid;
   text-align: center;
   .card-body {
-    margin-left: 0.5em;
+    @include mobileS {
+      margin-left: 0.5em;
+    }
+    @include mobileM {
+      margin-left: 1em;
+    }
+    @include mobileL {
+      margin-left: 2.5em;
+    }
   }
   #badge-title {
     margin-top: -1em;
+    h6 {
+      @include mobileS {
+        margin-bottom: -1em;
+      }
+      @include mobileM {
+        margin-bottom: 0.5em;
+      }
+      @include mobileL {
+        margin-bottom: 1em;
+      }
+    }
   }
 }
 #mobile-card {
-  #prices {
+  #card-bottom {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    #prices,
+    #bonus {
+      display: grid;
+      @include mobileS {
+        margin-top: 2em;
+        margin-bottom: -1em;
+        margin-left: 0.5em;
+      }
+      @include mobileM {
+        margin-bottom: -1em;
+        margin-left: 0.5em;
+      }
+      #text {
+        text-decoration: line-through;
+      }
+    }
+    #bonus {
+      span:first-child {
+        padding-bottom: 1em;
+      }
+    }
+  }
+}
+
+#badge-title {
+  .badge {
+    position: relative;
+    @include mobileS {
+      left: -5em;
+      top: -0.5em;
+    }
+    @include mobileM {
+      top: -0.5em;
+      left: -6em;
+    }
+    @include mobileL {
+      top: -0.5em;
+      left: -8em;
+    }
   }
 }
