@@ -1,6 +1,7 @@
 import React from "react";
 import "./News.css";
 import NewsCard from "./NewsCard/NewsCard";
+import MobileNews from "./MobileNews/MobileNews";
 const News = () => {
   return (
     <div id="news-container" className="container">
@@ -11,6 +12,7 @@ const News = () => {
         <hr />
       </div>
       <NewsCard />
+      <MobileNews />
     </div>
   );
 };

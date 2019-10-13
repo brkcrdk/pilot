@@ -1,0 +1,10 @@
+@import "../../utils.scss";
+#mobile-news {
+  @include mobileS {
+    display: block;
+  }
+
+  @include tablet {
+    display: none;
+  }
+}

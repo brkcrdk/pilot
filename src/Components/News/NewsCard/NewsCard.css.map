@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AACE,eADa,CACb,SAAS,CAAC;EACR,aAAa,EAAE,GAAG;CACnB",
+    "mappings": "ACgEA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,kEAAI;ADnEZ,AACE,oBADkB,CAClB,SAAS,CAAC;EACR,aAAa,EAAE,GAAG;CACnB;;ACOD,MAAM,EAAE,SAAS,EAAE,KAAK;EDV1B,AAAA,oBAAoB,CAAC;IAKjB,OAAO,EAAE,IAAI;GAKhB;;;ACoBC,MAAM,EAAE,SAAS,EAAE,KAAK;ED9B1B,AAAA,oBAAoB,CAAC;IAQjB,OAAO,EAAE,KAAK;GAEjB",
     "sources": [
-        "NewsCard.scss"
+        "NewsCard.scss",
+        "../../utils.scss"
     ],
     "names": [],
     "file": "NewsCard.css"
