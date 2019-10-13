@@ -1,5 +1,6 @@
 @import "../../../utils.scss";
 #desktop-card {
+  height: 100%;
   img {
     border-radius: 0;
     width: 100%;
@@ -19,14 +20,16 @@
   #badge-title {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     h6 {
-      margin-top: -1em;
-      margin-right: -1em;
+      width: 100%;
+      border: 1px solid red;
+      margin: -1em -1em 1em 0;
     }
     .badge {
-      position: relative;
-      top: -2em;
-      left: -2em;
+      position: absolute;
+      top: 0;
+      right: 0;
     }
   }
 

@@ -3,23 +3,25 @@ import "./Card.css";
 const Card = (props) => {
   return (
     <div className="card" id="desktop-card">
-      <img src="https://picsum.photos/200/300" class="card-img-top" alt="..." />
+      <img src={props.image} className="card-img-top" alt="..." />
       <div className="card-body">
         <div id="badge-title">
-          <span className="badge badge-dark">
-            Yakında <i className="far fa-calendar-alt"></i>
-          </span>
-          <h6>Title</h6>
+          {props.comingSoon ? (
+            <span className="badge badge-dark">
+              Yakında <i className="far fa-calendar-alt" />
+            </span>
+          ) : (
+            ""
+          )}
+          <h6>{props.title}</h6>
         </div>
         <div className="row" id="card-bottom">
-          <div id="bonus">
-            <span>Bonus</span>
-          </div>
+          <div id="bonus">{props.bonus ? <span>Bonus</span> : ""}</div>
           <div id="prices">
-            <span>-%15</span>
+            <span>{`-%${props.discount}`}</span>
             <div id="net-price">
-              <span>100</span>
-              <span>85</span>
+              <span>{props.price}</span>
+              <span>{props.netPrice}</span>
             </div>
           </div>
         </div>

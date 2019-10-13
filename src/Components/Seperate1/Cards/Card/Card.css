@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+#desktop-card {
+  height: 100%;
+}
+
 #desktop-card img {
   border-radius: 0;
   width: 100%;
@@ -38,17 +42,21 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 #desktop-card #badge-title h6 {
-  margin-top: -1em;
-  margin-right: -1em;
+  width: 100%;
+  border: 1px solid red;
+  margin: -1em -1em 1em 0;
 }
 
 #desktop-card #badge-title .badge {
-  position: relative;
-  top: -2em;
-  left: -2em;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #desktop-card #card-bottom {

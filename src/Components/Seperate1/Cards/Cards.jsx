@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cards.css";
 import Card from "./Card/Card";
-// import { slides } from "../../Content/Content";
+import { slides } from "../../Content/Content";
 import MobileCard from "./MobileCard/MobileCard";
 const Cards = () => {
   return (
@@ -9,23 +9,55 @@ const Cards = () => {
       <div id="mobileCards" className="container-fluid">
         <div className="accordion" id="accordionExample">
           <div className="card">
-            <MobileCard />
+            {slides
+              .filter((item, index) => {
+                return index < 4;
+              })
+              .map((slide, index) => {
+                const price = parseFloat(slide.price);
+                const discount = parseFloat(slide.discount);
+                const netPrice = ((100 - discount) / 100) * price;
+                return (
+                  <MobileCard
+                    key={index}
+                    image={slide.imgUrl}
+                    title={slide.name}
+                    comingSoon={slide.comingSoon}
+                    bonus={slide.isBonus}
+                    discount={discount}
+                    price={price}
+                    netPrice={netPrice}
+                  />
+                );
+              })}
           </div>
         </div>
       </div>
-      {/* <div id="tabletCards" className="container-fluid text-center">
-        <div className="row  ">
-          <div className="col-md-6"></div>
-          <div className="col-md-6"></div>
-        </div>
-        <div className="row">
-          <div className="col-md-6"></div>
-          <div className="col-md-6"></div>
-        </div>
-      </div> */}
       <div id="desktopCards" className="container-fluid">
         <div className="row text-center">
-          <div className="col-md-3">
+          {slides
+            .filter((item, index) => {
+              return index < 4;
+            })
+            .map((slide, index) => {
+              const price = parseFloat(slide.price);
+              const discount = parseFloat(slide.discount);
+              const netPrice = ((100 - discount) / 100) * price;
+              return (
+                <div key={index} className="col-md-3">
+                  <Card
+                    image={slide.imgUrl}
+                    comingSoon={slide.comingSoon}
+                    title={slide.name}
+                    bonus={slide.isBonus}
+                    discount={discount}
+                    price={price}
+                    netPrice={netPrice}
+                  />
+                </div>
+              );
+            })}
+          {/* <div className="col-md-3">
             <Card />
           </div>
           <div className="col-md-3">
@@ -36,7 +68,7 @@ const Cards = () => {
           </div>
           <div className="col-md-3">
             <Card />
-          </div>
+          </div> */}
         </div>
       </div>
     </>
