@@ -97,7 +97,7 @@
 
 @media (min-width: 768px) {
   #card-bottom {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 }
 
@@ -109,7 +109,18 @@
 
 #card-bottom .badge-danger {
   font-size: 1em;
-  margin-right: 1em;
+}
+
+@media (min-width: 320px) {
+  #card-bottom .badge-danger {
+    margin-right: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  #card-bottom .badge-danger {
+    margin-right: 0.5em;
+  }
 }
 
 #card-bottom #prices {
@@ -119,6 +130,12 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+  #card-bottom #prices {
+    font-size: 0.8em;
+  }
 }
 
 #card-bottom #net-price {

@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
 #seperate1-container {
+  font-family: "Montserrat", sans-serif;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

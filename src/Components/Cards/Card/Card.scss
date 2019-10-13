@@ -58,18 +58,26 @@
 
 #card-bottom {
   @include tablet {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   @include desktop {
     font-size: 1em;
   }
   .badge-danger {
     font-size: 1em;
-    margin-right: 1em;
+    @include mobileS {
+      margin-right: 1em;
+    }
+    @include tablet {
+      margin-right: 0.5em;
+    }
   }
   #prices {
     display: flex;
     align-items: flex-end;
+    @include tablet {
+      font-size: 0.8em;
+    }
   }
   #net-price {
     display: grid;
