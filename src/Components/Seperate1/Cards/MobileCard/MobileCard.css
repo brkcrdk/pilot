@@ -2,25 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
-#brand-container h3 {
-  margin-top: 0.5em;
+#mobile-card img {
+  height: 5em;
 }
-
-@media (min-width: 320px) {
-  #brand-container h3 {
-    margin-left: 0.5em;
-  }
-}
-
-@media (min-width: 992px) {
-  #brand-container h3 {
-    margin-left: 0;
-  }
-}
-
-#brand-container span {
-  color: grey;
-  position: absolute;
-  top: 3em;
-}
-/*# sourceMappingURL=Brand.css.map */
+/*# sourceMappingURL=MobileCard.css.map */

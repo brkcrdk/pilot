@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AC+DA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,4EAAI;ADhEZ,AACE,YADU,CACV,GAAG,CAAC;EACF,MAAM,EAAE,GAAG;CACZ",
+    "sources": [
+        "MobileCard.scss",
+        "../../../utils.scss"
+    ],
+    "names": [],
+    "file": "MobileCard.css"
+}

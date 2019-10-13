@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+#desktop-card #badge-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#desktop-card #badge-title h6 {
+  margin-top: -1em;
+  margin-right: -1em;
+}
+
+#desktop-card #badge-title .badge {
+  position: relative;
+  top: -2em;
+  left: -2em;
+}
+
+#desktop-card #card-bottom {
+  margin-top: -0.7em;
+  margin-bottom: -1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#card-bottom #prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#card-bottom #net-price {
+  display: -ms-grid;
+  display: grid;
+}
+
+#card-bottom #net-price span:first-child {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=Card.css.map */
