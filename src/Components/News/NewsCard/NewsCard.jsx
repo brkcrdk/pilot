@@ -1,9 +1,10 @@
 import React from "react";
+import "./NewsCard.css";
 import { slides } from "../../Content/Content";
 import Card from "../../Cards/Card/Card";
 const NewsCard = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="news-container">
       <div className="row text-center">
         <div className="row">
           <div className="col-md-12">

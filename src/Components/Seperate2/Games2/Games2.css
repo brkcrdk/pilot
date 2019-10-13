@@ -15,6 +15,10 @@
   }
 }
 
+#games2-desktop .col-sm-6 {
+  margin-bottom: 0.5em;
+}
+
 #big {
   margin-bottom: 1em;
 }
