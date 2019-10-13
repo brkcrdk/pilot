@@ -13,6 +13,11 @@ const Seperate1 = () => {
       </div>
       <Carousel />
       <Cards />
+      <hr className="seperater" />
+      <p className="text-center" id="whatsapp">
+        <i class="fab fa-whatsapp" /> +90(555)555 55 55
+      </p>
+      <hr className="seperater" />
     </div>
   );
 };

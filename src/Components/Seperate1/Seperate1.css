@@ -7,7 +7,29 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid black;
+}
+
+#seperate1-container .seperater {
+  border: 1px solid lightgrey;
+}
+
+#whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#whatsapp i {
+  margin: 0 0.5em;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: green;
 }
 
 #splitter p {
