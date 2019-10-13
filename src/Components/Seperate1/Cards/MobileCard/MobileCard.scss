@@ -6,13 +6,13 @@
     width: 100%;
     object-fit: cover;
     @include mobileS {
-      height: 8em;
+      height: 7em;
     }
     @include mobileM {
-      height: 9em;
+      height: 8em;
     }
     @include mobileL {
-      height: 10em;
+      height: 9;
     }
   }
 }

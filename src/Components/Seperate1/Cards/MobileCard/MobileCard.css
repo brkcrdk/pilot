@@ -11,19 +11,19 @@
 
 @media (min-width: 320px) {
   #mobile-card img {
-    height: 8em;
+    height: 7em;
   }
 }
 
 @media (min-width: 375px) {
   #mobile-card img {
-    height: 9em;
+    height: 8em;
   }
 }
 
 @media (min-width: 425px) {
   #mobile-card img {
-    height: 10em;
+    height: 9;
   }
 }
 

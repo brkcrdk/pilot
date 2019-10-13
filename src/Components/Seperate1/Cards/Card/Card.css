@@ -2,6 +2,35 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+#desktop-card img {
+  border-radius: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #desktop-card img {
+    height: 6.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  #desktop-card img {
+    height: 7.5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  #desktop-card img {
+    height: 8.5em;
+  }
+}
+
+@media (min-width: 1441px) {
+  #desktop-card img {
+    height: 10em;
+  }
+}
+
 #desktop-card #badge-title {
   display: -webkit-box;
   display: -ms-flexbox;

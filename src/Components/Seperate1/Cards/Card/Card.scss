@@ -1,5 +1,21 @@
 @import "../../../utils.scss";
 #desktop-card {
+  img {
+    border-radius: 0;
+    width: 100%;
+    @include tablet {
+      height: 6.5em;
+    }
+    @include desktop {
+      height: 7.5em;
+    }
+    @include desktopL {
+      height: 8.5em;
+    }
+    @include wideScreen {
+      height: 10em;
+    }
+  }
   #badge-title {
     display: flex;
     justify-content: space-between;
