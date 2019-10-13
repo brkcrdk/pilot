@@ -8,7 +8,7 @@ const Cards = () => {
     <>
       <div id="mobileCards" className="container-fluid">
         <div className="accordion" id="accordionExample">
-          <div className="card">
+          <div className="card" id="mobile-content">
             {slides
               .filter((item, index) => {
                 return index < 4;

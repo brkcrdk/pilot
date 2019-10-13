@@ -1,6 +1,9 @@
 @import "../../utils.scss";
 
 #mobileCards {
+  #mobile-content {
+    border: none;
+  }
   @include mobileL {
     display: block;
   }

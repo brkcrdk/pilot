@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+#mobileCards #mobile-content {
+  border: none;
+}
+
 @media (min-width: 425px) {
   #mobileCards {
     display: block;
