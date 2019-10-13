@@ -4,8 +4,8 @@ import MobileCard from "../../Cards/MobileCard/MobileCard";
 import { slides } from "../../Content/Content";
 const MobileNews = () => {
   return (
-    <div className="container-fluid">
-      <div id="mobile-news">
+    <div className="container-fluid" id="mobile-news">
+      <div>
         {slides
           .filter((item, index) => {
             return index < 4;

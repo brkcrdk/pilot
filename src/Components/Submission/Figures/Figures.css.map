@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACgEA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,kEAAI;ADlEZ,AACE,iBADe,CACf,GAAG,CAAC;EACF,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "Figures.scss",
+        "../../utils.scss"
+    ],
+    "names": [],
+    "file": "Figures.css"
+}
