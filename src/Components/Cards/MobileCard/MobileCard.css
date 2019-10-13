@@ -7,6 +7,10 @@
   margin: 0.5em 0;
 }
 
+#mobile-card .badge {
+  border-radius: 0;
+}
+
 #mobile-card img {
   border-radius: 0;
   width: 100%;
@@ -70,7 +74,7 @@
           align-items: flex-end;
 }
 
-#mobile-card #prices #push-right {
-  padding: 0 1em;
+#mobile-card #card-bottom .badge-danger {
+  font-size: 1em;
 }
 /*# sourceMappingURL=MobileCard.css.map */

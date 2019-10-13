@@ -1,5 +1,8 @@
-@import "../../../utils.scss";
+@import "../../utils.scss";
 #desktop-card {
+  .badge {
+    border-radius: 0;
+  }
   height: 100%;
   img {
     border-radius: 0;
@@ -53,6 +56,10 @@
   }
   @include desktop {
     font-size: 1em;
+  }
+  .badge-danger {
+    font-size: 1em;
+    margin-right: 1em;
   }
   #prices {
     display: flex;

@@ -1,6 +1,9 @@
-@import "../../../utils.scss";
+@import "../../utils.scss";
 
 #mobile-card {
+  .badge {
+    border-radius: 0;
+  }
   margin: 0.5em 0;
   img {
     border-radius: 0;
@@ -40,10 +43,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-  }
-  #prices {
-    #push-right {
-      padding: 0 1em;
+    .badge-danger {
+      font-size: 1em;
     }
   }
 }

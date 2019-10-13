@@ -7,6 +7,10 @@
   height: 100%;
 }
 
+#desktop-card .badge {
+  border-radius: 0;
+}
+
 #desktop-card img {
   border-radius: 0;
   width: 100%;
@@ -95,6 +99,11 @@
   #card-bottom {
     font-size: 1em;
   }
+}
+
+#card-bottom .badge-danger {
+  font-size: 1em;
+  margin-right: 1em;
 }
 
 #card-bottom #prices {
