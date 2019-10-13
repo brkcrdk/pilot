@@ -5,14 +5,23 @@
   color: white;
 
   img {
-    width: 9.5em;
-    height: 9em;
+    width: 100%;
+    @include mobileS {
+      height: 8em;
+    }
+    @include mobileM {
+      height: 9em;
+    }
+    @include mobileL {
+      height: 8em;
+    }
+    @include tablet {
+      height: 9em;
+    }
     @include desktop {
-      width: 13em;
       height: 10em;
     }
     @include desktopL {
-      width: 15em;
       height: 10em;
     }
   }

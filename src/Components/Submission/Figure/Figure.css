@@ -9,20 +9,41 @@
 }
 
 #figure-container img {
-  width: 9.5em;
-  height: 9em;
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  #figure-container img {
+    height: 8em;
+  }
+}
+
+@media (min-width: 375px) {
+  #figure-container img {
+    height: 9em;
+  }
+}
+
+@media (min-width: 425px) {
+  #figure-container img {
+    height: 8em;
+  }
+}
+
+@media (min-width: 768px) {
+  #figure-container img {
+    height: 9em;
+  }
 }
 
 @media (min-width: 992px) {
   #figure-container img {
-    width: 13em;
     height: 10em;
   }
 }
 
 @media (min-width: 1200px) {
   #figure-container img {
-    width: 15em;
     height: 10em;
   }
 }

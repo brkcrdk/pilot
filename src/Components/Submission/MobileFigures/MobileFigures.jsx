@@ -1,16 +1,14 @@
 import React from "react";
 import "./MobileFigures.css";
+import Figure from "../Figure/Figure";
 const MobileFigures = () => {
   return (
     <div id="mobile-figure">
-      <div className="container-fluid">
+      <div className="container-fluid text-center">
         <div className="row">
-          <div className="col-xs-6">fig1</div>
-          <div className="col-xs-6">fig1</div>
-        </div>
-        <div className="row">
-          <div className="col-xs-6">fig1</div>
-          <div className="col-xs-6">fig1</div>
+          <div className="col-sm-12">
+            <Figure />
+          </div>
         </div>
       </div>
     </div>
