@@ -18,10 +18,10 @@ const Card = (props) => {
         <div className="row" id="card-bottom">
           <div id="bonus">{props.bonus ? <span>Bonus</span> : ""}</div>
           <div id="prices">
-            <span>{`-%${props.discount}`}</span>
+            <span>{`-%${props.discount}`}&#8378;</span>
             <div id="net-price">
-              <span>{props.price}</span>
-              <span>{props.netPrice}</span>
+              <span>{props.price}&#8378;</span>
+              <span>{props.netPrice}&#8378;</span>
             </div>
           </div>
         </div>

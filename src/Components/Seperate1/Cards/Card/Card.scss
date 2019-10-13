@@ -24,6 +24,12 @@
     h6 {
       width: 100%;
       margin: -1em -1em 1em 0;
+      @include tablet {
+        font-size: 0.9em;
+      }
+      @include desktop {
+        font-size: 1em;
+      }
     }
     .badge {
       position: absolute;
@@ -42,6 +48,12 @@
 }
 
 #card-bottom {
+  @include tablet {
+    font-size: 0.8em;
+  }
+  @include desktop {
+    font-size: 1em;
+  }
   #prices {
     display: flex;
     align-items: flex-end;

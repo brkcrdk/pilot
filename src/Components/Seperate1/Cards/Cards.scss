@@ -1,6 +1,7 @@
 @import "../../utils.scss";
 
 #mobileCards {
+  font-family: font(montSerrat);
   #mobile-content {
     border: none;
   }
@@ -11,18 +12,9 @@
     display: none;
   }
 }
-// #tabletCards {
-//   @include mobileL {
-//     display: none;
-//   }
-//   @include tablet {
-//     display: block;
-//   }
-//   @include desktop {
-//     display: none;
-//   }
-// }
+
 #desktopCards {
+  font-family: font(montSerrat);
   @include mobileS {
     display: none;
   }
