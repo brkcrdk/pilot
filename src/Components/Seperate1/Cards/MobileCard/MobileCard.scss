@@ -2,6 +2,25 @@
 
 #mobile-card {
   img {
-    height: 5em;
+    @include mobileS {
+      width: 8em;
+      height: 8em;
+    }
+  }
+}
+#mobile-card {
+  display: grid;
+  text-align: center;
+  .card-body {
+    margin-left: 0.5em;
+  }
+  #badge-title {
+    margin-top: -1em;
+  }
+}
+#mobile-card {
+  #prices {
+    display: flex;
+    justify-content: space-between;
   }
 }
