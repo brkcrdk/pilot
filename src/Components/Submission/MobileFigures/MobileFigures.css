@@ -3,15 +3,19 @@
 @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
+#mobile-figure {
+  border: 1px solid red;
+}
+
 @media (min-width: 320px) {
-  #desktop-figure {
-    display: none;
+  #mobile-figure {
+    display: block;
   }
 }
 
 @media (min-width: 768px) {
-  #desktop-figure {
-    display: block;
+  #mobile-figure {
+    display: none;
   }
 }
-/*# sourceMappingURL=Figures.css.map */
+/*# sourceMappingURL=MobileFigures.css.map */

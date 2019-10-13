@@ -1,7 +1,10 @@
 @import "../../utils.scss";
 
-#figure-container {
-  img {
-    height: 40vh;
+#desktop-figure {
+  @include mobileS {
+    display: none;
+  }
+  @include tablet {
+    display: block;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Figures from "./Figures/Figures";
+import MobileFigures from "./MobileFigures/MobileFigures";
 const Submission = () => {
   return (
     <div id="submission-container" className="container">
@@ -10,6 +11,7 @@ const Submission = () => {
         <hr />
       </div>
       <Figures />
+      <MobileFigures />
     </div>
   );
 };
