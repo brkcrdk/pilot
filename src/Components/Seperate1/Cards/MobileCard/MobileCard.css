@@ -4,77 +4,52 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 #mobile-card img {
   border-radius: 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 320px) {
   #mobile-card img {
-    width: 8.5em;
     height: 8em;
   }
 }
 
 @media (min-width: 375px) {
   #mobile-card img {
-    width: 10em;
     height: 9em;
   }
 }
 
 @media (min-width: 425px) {
   #mobile-card img {
-    width: 11em;
     height: 10em;
   }
 }
 
-#mobile-card {
-  display: -ms-grid;
-  display: grid;
-  text-align: center;
-}
-
-@media (min-width: 320px) {
-  #mobile-card .card-body {
-    margin-left: 0.5em;
-  }
-}
-
-@media (min-width: 375px) {
-  #mobile-card .card-body {
-    margin-left: 1em;
-  }
-}
-
-@media (min-width: 425px) {
-  #mobile-card .card-body {
-    margin-left: 2.5em;
-  }
-}
-
 #mobile-card #badge-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#mobile-card #badge-title h6 {
   margin-top: -1em;
+  margin-right: -1em;
 }
 
-@media (min-width: 320px) {
-  #mobile-card #badge-title h6 {
-    margin-top: -0.5em;
-    margin-bottom: -1.2em;
-  }
-}
-
-@media (min-width: 375px) {
-  #mobile-card #badge-title h6 {
-    margin-bottom: -1em;
-  }
-}
-
-@media (min-width: 425px) {
-  #mobile-card #badge-title h6 {
-    margin-bottom: -0.5em;
-  }
+#mobile-card #badge-title .badge {
+  position: relative;
+  top: -2em;
+  left: -2em;
 }
 
 #mobile-card #card-bottom {
+  margin-top: -0.7em;
+  margin-bottom: -1em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,74 +61,7 @@
           align-items: flex-end;
 }
 
-#mobile-card #card-bottom #prices,
-#mobile-card #card-bottom #bonus {
-  display: -ms-grid;
-  display: grid;
-}
-
-@media (min-width: 320px) {
-  #mobile-card #card-bottom #prices,
-  #mobile-card #card-bottom #bonus {
-    margin-top: 2em;
-    margin-bottom: -1em;
-    margin-left: 0.5em;
-  }
-}
-
-@media (min-width: 375px) {
-  #mobile-card #card-bottom #prices,
-  #mobile-card #card-bottom #bonus {
-    margin-bottom: -1em;
-    margin-left: 0.5em;
-  }
-}
-
-#mobile-card #card-bottom #prices #text,
-#mobile-card #card-bottom #bonus #text {
-  text-decoration: line-through;
-}
-
-@media (min-width: 320px) {
-  #mobile-card #card-bottom #bonus span:first-child {
-    padding-bottom: 1.3em;
-  }
-}
-
-@media (min-width: 375px) {
-  #mobile-card #card-bottom #bonus span:first-child {
-    padding-bottom: 1.5em;
-  }
-}
-
-@media (min-width: 425px) {
-  #mobile-card #card-bottom #bonus span:first-child {
-    padding-bottom: 2em;
-  }
-}
-
-#badge-title .badge {
-  position: relative;
-}
-
-@media (min-width: 320px) {
-  #badge-title .badge {
-    left: -5em;
-    top: -0.5em;
-  }
-}
-
-@media (min-width: 375px) {
-  #badge-title .badge {
-    top: -0.5em;
-    left: -6em;
-  }
-}
-
-@media (min-width: 425px) {
-  #badge-title .badge {
-    top: -0.5em;
-    left: -8em;
-  }
+#mobile-card #prices #push-right {
+  padding: 0 1em;
 }
 /*# sourceMappingURL=MobileCard.css.map */
