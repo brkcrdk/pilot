@@ -35,13 +35,14 @@
     margin-top: -1em;
     h6 {
       @include mobileS {
-        margin-bottom: -1em;
+        margin-top: -0.5em;
+        margin-bottom: -1.2em;
       }
       @include mobileM {
-        margin-bottom: 0.5em;
+        margin-bottom: -1em;
       }
       @include mobileL {
-        margin-bottom: 1em;
+        margin-bottom: -0.5em;
       }
     }
   }
@@ -69,7 +70,15 @@
     }
     #bonus {
       span:first-child {
-        padding-bottom: 1em;
+        @include mobileS {
+          padding-bottom: 1.3em;
+        }
+        @include mobileM {
+          padding-bottom: 1.5em;
+        }
+        @include mobileL {
+          padding-bottom: 2em;
+        }
       }
     }
   }

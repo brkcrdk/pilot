@@ -57,19 +57,20 @@
 
 @media (min-width: 320px) {
   #mobile-card #badge-title h6 {
-    margin-bottom: -1em;
+    margin-top: -0.5em;
+    margin-bottom: -1.2em;
   }
 }
 
 @media (min-width: 375px) {
   #mobile-card #badge-title h6 {
-    margin-bottom: 0.5em;
+    margin-bottom: -1em;
   }
 }
 
 @media (min-width: 425px) {
   #mobile-card #badge-title h6 {
-    margin-bottom: 1em;
+    margin-bottom: -0.5em;
   }
 }
 
@@ -113,8 +114,22 @@
   text-decoration: line-through;
 }
 
-#mobile-card #card-bottom #bonus span:first-child {
-  padding-bottom: 1em;
+@media (min-width: 320px) {
+  #mobile-card #card-bottom #bonus span:first-child {
+    padding-bottom: 1.3em;
+  }
+}
+
+@media (min-width: 375px) {
+  #mobile-card #card-bottom #bonus span:first-child {
+    padding-bottom: 1.5em;
+  }
+}
+
+@media (min-width: 425px) {
+  #mobile-card #card-bottom #bonus span:first-child {
+    padding-bottom: 2em;
+  }
 }
 
 #badge-title .badge {
