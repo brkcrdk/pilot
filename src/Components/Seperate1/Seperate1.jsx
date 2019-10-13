@@ -11,7 +11,7 @@ const Seperate1 = () => {
         </p>
         <hr />
       </div>
-      <Carousel />
+      <Carousel arrow={true} />
       <Games />
       <hr className="seperater" />
       <p className="text-center" id="whatsapp">

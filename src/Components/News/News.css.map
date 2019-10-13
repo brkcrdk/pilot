@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACgEA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,kEAAI;ADlEZ,AAAA,eAAe,CAAC;EACd,WAAW,ECmEA,YAAY,EAAE,UAAU;CDlEpC",
     "sources": [
-        "News.scss"
+        "News.scss",
+        "../utils.scss"
     ],
     "names": [],
     "file": "News.css"

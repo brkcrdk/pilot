@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,MAAM,EAAE,MAAM;CACf",
+    "mappings": "ACgEA,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,sEAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,4EAAI;AACZ,OAAO,CAAC,kEAAI;ADlEZ,AAAA,oBAAoB,CAAC;EACnB,WAAW,ECmEA,YAAY,EAAE,UAAU;EDlEnC,MAAM,EAAE,MAAM;CACf",
     "sources": [
-        "Seperate2.scss"
+        "Seperate2.scss",
+        "../utils.scss"
     ],
     "names": [],
     "file": "Seperate2.css"
