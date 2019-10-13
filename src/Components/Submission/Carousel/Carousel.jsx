@@ -1,5 +1,5 @@
 import React from "react";
-const Carousel = () => {
+const Carousel = (props) => {
   return (
     <div className="container-fluid">
       <div
@@ -14,7 +14,7 @@ const Carousel = () => {
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div className="carousel-inner"></div>
+        <div className="carousel-inner">{props.content}</div>
       </div>
     </div>
   );

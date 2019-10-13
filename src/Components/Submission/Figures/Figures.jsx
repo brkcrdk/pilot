@@ -1,6 +1,7 @@
 import React from "react";
 import "./Figures.css";
 import Figure from "../Figure/Figure";
+import Carousel from "../Carousel/Carousel";
 const Figures = () => {
   return (
     <div id="desktop-figure">
