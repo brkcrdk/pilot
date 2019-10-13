@@ -1,9 +1,9 @@
 import React from "react";
-import "./Cards.css";
-import Card from "./Card/Card";
+import "./Games.css";
+import Card from "../../Cards/Card/Card";
 import { slides } from "../../Content/Content";
-import MobileCard from "./MobileCard/MobileCard";
-const Cards = () => {
+import MobileCard from "../../Cards/MobileCard/MobileCard";
+const Games = () => {
   return (
     <>
       <div id="mobileCards" className="container-fluid">
@@ -57,22 +57,10 @@ const Cards = () => {
                 </div>
               );
             })}
-          {/* <div className="col-md-3">
-            <Card />
-          </div>
-          <div className="col-md-3">
-            <Card />
-          </div>
-          <div className="col-md-3">
-            <Card />
-          </div>
-          <div className="col-md-3">
-            <Card />
-          </div> */}
         </div>
       </div>
     </>
   );
 };
 
-export default Cards;
+export default Games;

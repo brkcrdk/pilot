@@ -1,7 +1,7 @@
 import React from "react";
 import "./Seperate1.css";
 import Carousel from "./Carousel/Carousel";
-import Cards from "./Cards/Cards";
+import Games from "./Games/Games";
 const Seperate1 = () => {
   return (
     <div id="seperate1-container" className="container">
@@ -12,7 +12,7 @@ const Seperate1 = () => {
         <hr />
       </div>
       <Carousel />
-      <Cards />
+      <Games />
       <hr className="seperater" />
       <p className="text-center" id="whatsapp">
         <i class="fab fa-whatsapp" /> +90(555)555 55 55

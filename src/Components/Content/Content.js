@@ -25,7 +25,7 @@ export const slides = [
     comingSoon: false
   },
   {
-    id: "Four",
+    id: "Three",
     imgUrl: tacticforce,
     name: "Tactic Force",
     discount: "15",
@@ -34,7 +34,7 @@ export const slides = [
     comingSoon: false
   },
   {
-    id: "Five",
+    id: "Four",
     imgUrl: wow,
     name: "World of Warcraft",
     discount: "15",
@@ -43,7 +43,7 @@ export const slides = [
     comingSoon: true
   },
   {
-    id: "Three",
+    id: "Five",
     imgUrl: pubg,
     name: "PlayerUnknown's BattleGrounds",
     discount: "15",
