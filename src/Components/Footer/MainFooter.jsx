@@ -18,7 +18,7 @@ const MainFooter = () => {
             <li>Lorem ipsum dolor</li>
             <li>Sit amet consectetuer</li>
             <li>Adipiscing elit</li>
-            <li>Sed diam nonummy nibh</li>
+            <li>Sed diam nonummy</li>
             <li>Euismod tincidunt</li>
             <li>Laoreet dolore magna</li>
             <li>Aliquam</li>
