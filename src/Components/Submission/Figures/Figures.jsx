@@ -21,11 +21,18 @@ const Figures = () => {
         {slides.map((array, index) => (
           <div className={`carousel-item ${index === 0 ? "active" : ""}`}>
             <div className="row">
-              {array.map((slide, index) => (
-                <div className="col-md-3">
-                  <Figure />
-                </div>
-              ))}
+              {array.map((slide, index) => {
+                return (
+                  <div className="col-md-3">
+                    <Figure
+                      image={slide.imgUrl}
+                      shortName={slide.shortName}
+                      count={parseFloat(slide.discount)}
+                      name={slide.name}
+                    />
+                  </div>
+                );
+              })}
             </div>
           </div>
         ))}

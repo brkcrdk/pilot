@@ -8,11 +8,8 @@
   }
   li {
     position: relative;
-    top: 1.5em;
+    top: 2.5em;
     background-color: black;
-    @include desktop {
-      top: 2.5em;
-    }
   }
   @include mobileS {
     display: none;

@@ -20,7 +20,12 @@ const MobileFigures = () => {
             <div className={`carousel-item ${index === 0 ? "active" : ""}`}>
               <div className="row">
                 <div className="col-sm-12">
-                  <Figure />
+                  <Figure
+                    image={slide.imgUrl}
+                    count={parseFloat(slide.discount)}
+                    shortName={slide.shortName}
+                    name={slide.name}
+                  />
                 </div>
               </div>
             </div>

@@ -1,18 +1,18 @@
 import React from "react";
 import "./Figure.css";
-const Figure = () => {
+const Figure = (props) => {
   return (
     <div className="">
       <div id="figure-container" className="">
-        <img src="https://picsum.photos/200/300" alt="..." />
+        <img src={props.image} alt={props.shortName} />
         <div id="figure-caption">
-          <h6>You shouldn't be here</h6>
+          <h6>{props.name}</h6>
           <div id="figure-bottom">
             <span>
               <i className="far fa-comment" />
-              11
+              {props.count}
             </span>
-            <span>yesterday</span>
+            <span>{props.shortName}</span>
           </div>
         </div>
       </div>

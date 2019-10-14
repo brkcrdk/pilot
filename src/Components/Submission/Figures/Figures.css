@@ -17,14 +17,8 @@
 
 #desktop-figure li {
   position: relative;
-  top: 1.5em;
+  top: 2.5em;
   background-color: black;
-}
-
-@media (min-width: 992px) {
-  #desktop-figure li {
-    top: 2.5em;
-  }
 }
 
 @media (min-width: 320px) {

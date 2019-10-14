@@ -61,7 +61,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "fortnite"
   },
   {
     id: "Two",
@@ -70,7 +71,8 @@ export const subSlides = [
     discount: "20",
     price: "100",
     isBonus: false,
-    comingSoon: false
+    comingSoon: false,
+    shortName: "lol"
   },
   {
     id: "Three",
@@ -79,7 +81,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: false
+    comingSoon: false,
+    shortName: "tf"
   },
   {
     id: "Four",
@@ -88,7 +91,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "wow"
   },
   {
     id: "Five",
@@ -97,7 +101,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: false,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "pubg"
   },
   {
     id: "One",
@@ -106,7 +111,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "fortnite"
   },
   {
     id: "Two",
@@ -115,7 +121,8 @@ export const subSlides = [
     discount: "20",
     price: "100",
     isBonus: false,
-    comingSoon: false
+    comingSoon: false,
+    shortName: "lol"
   },
   {
     id: "Three",
@@ -124,7 +131,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: false
+    comingSoon: false,
+    shortName: "tf"
   },
   {
     id: "Four",
@@ -133,7 +141,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "wow"
   },
   {
     id: "Five",
@@ -142,7 +151,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: false,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "pubg"
   },
   {
     id: "One",
@@ -151,7 +161,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "fortnite"
   },
   {
     id: "Two",
@@ -160,7 +171,8 @@ export const subSlides = [
     discount: "20",
     price: "100",
     isBonus: false,
-    comingSoon: false
+    comingSoon: false,
+    shortName: "lol"
   },
   {
     id: "Three",
@@ -169,7 +181,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: false
+    comingSoon: false,
+    shortName: "tf"
   },
   {
     id: "Four",
@@ -178,7 +191,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "wow"
   },
   {
     id: "Five",
@@ -187,7 +201,8 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: false,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "pubg"
   },
   {
     id: "One",
@@ -196,6 +211,7 @@ export const subSlides = [
     discount: "15",
     price: "100",
     isBonus: true,
-    comingSoon: true
+    comingSoon: true,
+    shortName: "fortnite"
   }
 ];
