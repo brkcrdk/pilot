@@ -1,6 +1,6 @@
 Used technologies in this project: 
 
-# Javascript
+## Javascript
 # ReactJS
 # SASS
 # axios
