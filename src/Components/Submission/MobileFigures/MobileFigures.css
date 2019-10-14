@@ -3,10 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
-#mobile-figure {
-  border: 1px solid red;
-}
-
 @media (min-width: 320px) {
   #mobile-figure {
     display: block;

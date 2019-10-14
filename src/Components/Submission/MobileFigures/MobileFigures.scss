@@ -1,7 +1,6 @@
 @import "../../utils.scss";
 
 #mobile-figure {
-  border: 1px solid red;
   @include mobileS {
     display: block;
   }
