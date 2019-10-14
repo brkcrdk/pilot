@@ -41,9 +41,8 @@ const Games2 = () => {
                   const discount = parseFloat(slide.discount);
                   const netPrice = ((100 - discount) / 100) * price;
                   return (
-                    <div className="col-sm-6">
+                    <div className="col-sm-6" key={index}>
                       <Card
-                        key={index}
                         image={slide.imgUrl}
                         comingSoon={slide.comingSoon}
                         title={slide.name}

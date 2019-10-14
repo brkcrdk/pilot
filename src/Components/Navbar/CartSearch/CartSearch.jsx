@@ -5,10 +5,10 @@ const CartSearch = () => {
     <ul id="search-cart">
       <div id="desktop">
         <li>
-          <i class="fas fa-shopping-cart" /> 0
+          <i className="fas fa-shopping-cart" /> 0
         </li>
         <li>
-          <i class="fas fa-search" />
+          <i className="fas fa-search" />
         </li>
       </div>
     </ul>

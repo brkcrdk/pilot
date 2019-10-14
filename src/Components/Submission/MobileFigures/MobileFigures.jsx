@@ -9,6 +9,7 @@ const MobileFigures = () => {
         <ol className="carousel-indicators">
           {subSlides.map((slide, index) => (
             <li
+              key={index}
               className={`${index === 0 ? "active" : ""}`}
               data-target="#mobile-figure"
               data-slide-to={`${index}`}
@@ -17,7 +18,9 @@ const MobileFigures = () => {
         </ol>
         <div className="carousel-inner">
           {subSlides.map((slide, index) => (
-            <div className={`carousel-item ${index === 0 ? "active" : ""}`}>
+            <div
+              key={index}
+              className={`carousel-item ${index === 0 ? "active" : ""}`}>
               <div className="row">
                 <div className="col-sm-12">
                   <Figure

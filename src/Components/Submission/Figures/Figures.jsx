@@ -11,6 +11,7 @@ const Figures = () => {
       <ol className="carousel-indicators">
         {slides.map((slide, index) => (
           <li
+            key={index}
             className={`${index === 0 ? "active" : ""}`}
             data-target="#desktop-figure"
             data-slide-to={`${index}`}
@@ -19,11 +20,13 @@ const Figures = () => {
       </ol>
       <div className="carousel-inner">
         {slides.map((array, index) => (
-          <div className={`carousel-item ${index === 0 ? "active" : ""}`}>
+          <div
+            key={index}
+            className={`carousel-item ${index === 0 ? "active" : ""}`}>
             <div className="row">
               {array.map((slide, index) => {
                 return (
-                  <div className="col-md-3">
+                  <div className="col-md-3" key={index}>
                     <Figure
                       image={slide.imgUrl}
                       shortName={slide.shortName}

@@ -5,13 +5,13 @@ const User = () => {
     <ul id="user-links">
       <div id="desktop">
         <li>User</li>
-        <i class="fas fa-user" />
+        <i className="fas fa-user" />
         <li>Login</li>
-        <i class="fas fa-sign-in-alt" />
+        <i className="fas fa-sign-in-alt" />
       </div>
       <div id="mobile">
-        <i class="fas fa-user" />
-        <i class="fas fa-sign-in-alt" />
+        <i className="fas fa-user" />
+        <i className="fas fa-sign-in-alt" />
       </div>
     </ul>
   );

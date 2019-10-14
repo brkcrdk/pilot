@@ -10,13 +10,13 @@ const Footer = () => {
             <i className="far fa-handshake" /> <span>Lorem Ipsum</span>
           </div>
           <div>
-            <i class="fab fa-cc-mastercard" />
+            <i className="fab fa-cc-mastercard" />
           </div>
           <div>
-            <i class="fab fa-cc-visa" />
+            <i className="fab fa-cc-visa" />
           </div>
           <div>
-            <i class="fab fa-steam-symbol" />
+            <i className="fab fa-steam-symbol" />
           </div>
         </div>
       </div>

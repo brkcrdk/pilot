@@ -16,7 +16,7 @@ const NewsCard = () => {
             const discount = parseFloat(slide.discount);
             const netPrice = ((100 - discount) / 100) * price;
             return (
-              <div className="col-md-3">
+              <div className="col-md-3" key={index}>
                 <Card
                   image={slide.imgUrl}
                   comingSoon={slide.comingSoon}

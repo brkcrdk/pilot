@@ -5,9 +5,10 @@ const Carousel = () => {
   return (
     <div id="carousel-container">
       <div id="carousel-main" className="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+        <ol className="carousel-indicators">
           {slides.map((slide, index) => (
             <li
+              key={index}
               data-target="#carousel-main"
               data-slide-to={index}
               className={slide.isActive ? "active" : ""}
@@ -23,6 +24,7 @@ const Carousel = () => {
                 const netPrice = ((100 - discount) / 100) * price;
                 return (
                   <div
+                    key={index}
                     className={`carousel-item ${
                       slides.isActive ? "active" : ""
                     }`}>
@@ -38,7 +40,7 @@ const Carousel = () => {
                       <div>
                         <span className="badge badge-danger">{`${discount}%`}</span>
                         <span className="badge badge-light">{netPrice}</span>
-                        <button type="button" class="btn btn-dark">
+                        <button type="button" className="btn btn-dark">
                           <i className="fas fa-cart-plus" />
                           Sepete Ekle
                         </button>
@@ -55,8 +57,10 @@ const Carousel = () => {
           href="#carousel-main"
           role="button"
           data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
         </a>
         <a
           className="carousel-control-next"
