@@ -3,17 +3,17 @@ const Links = () => {
   return (
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="#?">
+        <a className="nav-link" href="#seperate1-container">
           Home <span className="sr-only">(current)</span>
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#?">
-          Section1
+        <a className="nav-link" href="#news-container">
+          News
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#?">
+        <a className="nav-link" href="#seperate2-container">
           Section2
         </a>
       </li>
@@ -28,13 +28,13 @@ const Links = () => {
           Another Section
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a className="dropdown-item" href="#?">
-            News
+          <a className="dropdown-item" href="#seperate1-container">
+            Section1
           </a>
-          <a className="dropdown-item" href="#?">
+          <a className="dropdown-item" href="#submission-container">
             Submission
           </a>
-          <a className="dropdown-item" href="#?">
+          <a className="dropdown-item" href="#footer-container">
             Footer
           </a>
         </div>
