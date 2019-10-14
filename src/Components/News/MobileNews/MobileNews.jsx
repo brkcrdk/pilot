@@ -19,7 +19,7 @@ const MobileNews = (props) => {
                 bonus={slide.isBonus}
                 discount={discount}
                 price={price}
-                netPrice={netPrice}
+                netPrice={netPrice.toFixed(2)}
               />
             );
           })}
