@@ -5,6 +5,7 @@ import NewsCard from "./NewsCard/NewsCard";
 import MobileNews from "./MobileNews/MobileNews";
 import { subSlides } from "../Content/Content";
 const News = () => {
+  //Fetch data from an api
   const [data, setData] = useState(null);
   useEffect(() => {
     axios
@@ -15,6 +16,9 @@ const News = () => {
       .catch((err) => console.log(err));
   }, []);
 
+  //Change existing objects properties to new ones
+  //And make new array
+  //
   const newArray = () => {
     if (data !== null) {
       const newArr = subSlides

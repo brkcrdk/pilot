@@ -23,11 +23,6 @@ $wideScreen: 1441px;
     @content;
   }
 }
-@mixin phones {
-  @media (min-width:#{$phones}) {
-    @content;
-  }
-}
 @mixin tablet {
   @media (min-width:#{$tablet}) {
     @content;
@@ -49,7 +44,7 @@ $wideScreen: 1441px;
     @content;
   }
 }
-//Renk seçme function
+//Renk seçme
 $colors: (
   orange: #ff5000,
   grey: #303030,
@@ -64,8 +59,6 @@ $colors: (
 //Fonts
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
 $baloo: "Baloo Bhai", cursive;
 $montSerrat: "Montserrat", sans-serif;

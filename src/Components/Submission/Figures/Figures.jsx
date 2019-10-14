@@ -4,6 +4,11 @@ import Figure from "../Figure/Figure";
 import { subSlides } from "../../Content/Content";
 import { handleArray } from "../handleArray";
 const Figures = () => {
+  //With the help of handleArray function could manage to split subSlides array
+  //Which return 4 arrays and every array has 4 object inside
+  //With 4 array render 4 carousel-item and rows
+  //Inside of these carousel-items and rows we will render 4 objects
+  //This way we could use bootstrap class rows and columns to make responsive carousel
   const slides = handleArray(subSlides, 4);
 
   return (
