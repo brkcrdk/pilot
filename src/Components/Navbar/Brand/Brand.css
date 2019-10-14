@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
 #brand-container h3 {
+  color: #ff5000;
   margin-top: 0.5em;
 }
 
@@ -20,7 +21,7 @@
 }
 
 #brand-container span {
-  color: grey;
+  color: #303030;
   position: absolute;
   top: 3em;
 }

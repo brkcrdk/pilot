@@ -2,6 +2,8 @@
 
 #brand-container {
   h3 {
+    color: color(orange);
+
     margin-top: 0.5em;
     @include mobileS {
       margin-left: 0.5em;

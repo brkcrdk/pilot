@@ -19,12 +19,15 @@
   .navbar-brand {
     font-family: font(baloo);
   }
-  a {
-    color: color(orange);
+  #navbar-links {
+    a {
+      color: color(borders);
+    }
   }
 }
 
 #rightNow {
+  color: color(borders);
   font-family: font(montSerrat);
   letter-spacing: -1px;
   strong {

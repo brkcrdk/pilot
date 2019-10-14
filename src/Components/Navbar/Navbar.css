@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
 #nav-container {
-  background-color: orange;
+  background-color: #ff5000;
   padding: 2em 0 0.5em 0;
   font-family: "Montserrat", sans-serif;
   -webkit-box-shadow: 0 0.1px 0.5em #888888;
@@ -14,7 +14,7 @@
 #nav-content {
   padding: 0;
   margin: 0;
-  background-color: grey;
+  background-color: #303030;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   display: -webkit-box;
@@ -29,11 +29,12 @@
   font-family: "Baloo Bhai", cursive;
 }
 
-#nav-content a {
-  color: orange;
+#nav-content #navbar-links a {
+  color: white;
 }
 
 #rightNow {
+  color: white;
   font-family: "Montserrat", sans-serif;
   letter-spacing: -1px;
 }

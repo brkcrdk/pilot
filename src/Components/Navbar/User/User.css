@@ -13,7 +13,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: orange;
+  cursor: pointer;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -33,11 +34,19 @@
   list-style-type: none;
 }
 
+#user-links #desktop li:hover {
+  color: #ff5000;
+}
+
 #user-links #desktop i {
   padding-top: 0.2em;
   margin: 0;
   position: relative;
   margin: 0 1em;
+}
+
+#user-links #desktop i:hover {
+  color: #ff5000;
 }
 
 @media (min-width: 320px) {

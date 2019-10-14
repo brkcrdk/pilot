@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: color(orange);
+  cursor: pointer;
+  color: color(borders);
   #desktop {
     @include desktop {
       margin-left: 7em;
@@ -14,12 +15,19 @@
     }
     li {
       list-style-type: none;
+      &:hover {
+        color: color(orange);
+      }
     }
+
     i {
       padding-top: 0.2em;
       margin: 0;
       position: relative;
       margin: 0 1em;
+      &:hover {
+        color: color(orange);
+      }
       // left: -1em;
     }
     @include mobileS {
@@ -35,15 +43,6 @@
       position: relative;
       left: -1em;
     }
-    // @include mobileS {
-    //   display: flex;
-    // }
-    // @include mobileM {
-    //   display: flex;
-    // }
-    // @include mobileL {
-    //   display: flex;
-    // }
     @include phones {
       display: flex;
     }

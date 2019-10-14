@@ -5,12 +5,12 @@
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
 #footer-container {
   margin-top: 2em;
-  background-color: grey;
+  background-color: #303030;
   padding: 2em 0;
 }
 
 #footer-content {
-  background-color: orange;
+  background-color: #ff5000;
 }
 
 #footer-bottom,

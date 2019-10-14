@@ -1,7 +1,7 @@
 import React from "react";
 const Links = () => {
   return (
-    <ul className="navbar-nav">
+    <ul className="navbar-nav" id="navbar-links">
       <li className="nav-item active">
         <a className="nav-link" href="#seperate1-container">
           Home <span className="sr-only">(current)</span>
