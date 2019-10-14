@@ -1,44 +1,21 @@
 import React from "react";
 import "./MobileNews.css";
 import MobileCard from "../../Cards/MobileCard/MobileCard";
-import { slides } from "../../Content/Content";
+import { subSlides } from "../../Content/Content";
 const MobileNews = () => {
   return (
     <div className="container-fluid" id="mobile-news">
-      <div>
-        {slides
-          .filter((item, index) => {
-            return index < 4;
-          })
-          .map((slide, index) => {
-            const price = parseFloat(slide.price);
-            const discount = parseFloat(slide.discount);
-            const netPrice = ((100 - discount) / 100) * price;
-            return (
-              <MobileCard
-                key={index}
-                image={slide.imgUrl}
-                title={slide.name}
-                comingSoon={slide.comingSoon}
-                bonus={slide.isBonus}
-                discount={discount}
-                price={price}
-                netPrice={netPrice}
-              />
-            );
-          })}
-      </div>
-      {slides
-        .filter((item, index) => {
-          return index < 4;
+      {subSlides
+        .filter((slide, key) => {
+          return key < 8;
         })
-        .map((slide, index) => {
+        .map((slide, key) => {
           const price = parseFloat(slide.price);
           const discount = parseFloat(slide.discount);
           const netPrice = ((100 - discount) / 100) * price;
           return (
             <MobileCard
-              key={index}
+              key={key}
               image={slide.imgUrl}
               title={slide.name}
               comingSoon={slide.comingSoon}
