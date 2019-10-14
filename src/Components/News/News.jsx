@@ -14,6 +14,7 @@ const News = () => {
       })
       .catch((err) => console.log(err));
   }, []);
+
   const newArray = () => {
     if (data !== null) {
       const newArr = subSlides
@@ -30,7 +31,6 @@ const News = () => {
       return newArr;
     }
   };
-  console.log(newArray());
   return (
     <div id="news-container" className="container">
       <div id="splitter">
@@ -39,8 +39,8 @@ const News = () => {
         </p>
         <hr />
       </div>
-      <NewsCard />
-      <MobileNews />
+      <NewsCard content={newArray()} />
+      <MobileNews content={newArray()} />
     </div>
   );
 };
