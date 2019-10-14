@@ -1,7 +1,8 @@
 import React from "react";
 import "./News.css";
 import NewsCard from "./NewsCard/NewsCard";
-import MobileNews from "./MobileNews/MobileNews";
+// import MobileNews from "./MobileNews/MobileNews";
+import News2 from "./News2/News2";
 const News = () => {
   return (
     <div id="news-container" className="container">
@@ -12,7 +13,7 @@ const News = () => {
         <hr />
       </div>
       <NewsCard />
-      <MobileNews />
+      {/* <MobileNews /> */}
     </div>
   );
 };
