@@ -11,7 +11,7 @@ const MobileCard = (props) => {
             className={`badge badge-dark ${
               props.comingSoon ? "" : "visibility"
             }`}>
-            Yakında <i className="far fa-calendar-alt" />
+            Soon! <i className="far fa-calendar-alt" />
           </span>
           <h6>{props.title}</h6>
         </div>

@@ -42,7 +42,7 @@ const Carousel = () => {
                         <span className="badge badge-light">{netPrice}</span>
                         <button type="button" className="btn btn-dark">
                           <i className="fas fa-cart-plus" />
-                          Sepete Ekle
+                          Add to Cart
                         </button>
                       </div>
                     </div>

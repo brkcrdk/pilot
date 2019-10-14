@@ -8,7 +8,7 @@ const Card = (props) => {
         <div id="badge-title">
           {props.comingSoon ? (
             <span className="badge badge-dark">
-              Yakında <i className="far fa-calendar-alt" />
+              Soon! <i className="far fa-calendar-alt" />
             </span>
           ) : (
             ""
