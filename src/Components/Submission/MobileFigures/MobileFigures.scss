@@ -1,6 +1,17 @@
 @import "../../utils.scss";
 
 #mobile-figure {
+  ol {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  li {
+    position: relative;
+    top: 2.5em;
+    background-color: color(dodgerBlue);
+  }
   @include mobileS {
     display: block;
   }

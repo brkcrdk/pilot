@@ -1,6 +1,19 @@
 @import "../../utils.scss";
 
 #desktop-figure {
+  ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  li {
+    position: relative;
+    top: 1.5em;
+    background-color: color(dodgerBlue);
+    @include desktop {
+      top: 2.5em;
+    }
+  }
   @include mobileS {
     display: none;
   }

@@ -3,6 +3,30 @@
 @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
+#desktop-figure ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#desktop-figure li {
+  position: relative;
+  top: 1.5em;
+  background-color: #1e90ff;
+}
+
+@media (min-width: 992px) {
+  #desktop-figure li {
+    top: 2.5em;
+  }
+}
+
 @media (min-width: 320px) {
   #desktop-figure {
     display: none;

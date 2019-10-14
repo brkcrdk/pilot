@@ -3,6 +3,23 @@
 @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
+#mobile-figure ol {
+  margin-left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#mobile-figure li {
+  position: relative;
+  top: 2.5em;
+  background-color: #1e90ff;
+}
+
 @media (min-width: 320px) {
   #mobile-figure {
     display: block;
