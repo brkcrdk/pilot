@@ -4,6 +4,7 @@ import Seperate1 from "./Components/Seperate1/Seperate1";
 import Seperate2 from "./Components/Seperate2/Seperate2";
 import News from "./Components/News/News";
 import Submission from "./Components/Submission/Submission";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="">
@@ -14,6 +15,7 @@ function App() {
       <Seperate2 />
       <News />
       <Submission />
+      <Footer />
     </div>
   );
 }

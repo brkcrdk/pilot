@@ -45,7 +45,7 @@ export const slides = [
   {
     id: "Five",
     imgUrl: pubg,
-    name: "PlayerUnknown's BattleGrounds",
+    name: "PUBG",
     discount: "15",
     price: "100",
     isBonus: false,
