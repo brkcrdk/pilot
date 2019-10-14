@@ -20,3 +20,7 @@ html {
   transform: rotate(90deg);
   text-decoration: none;
 }
+.card {
+  border: none;
+  border-radius: 0;
+}

@@ -1,10 +1,7 @@
 @import "../../utils.scss";
-//IMPORTANT! .card section here is global
-.card {
-  border: none;
-  border-radius: 0;
-}
+
 #desktop-card {
+  transition: 0.3s;
   background-color: #f5f5f5;
   .badge {
     border-radius: 0;
@@ -85,4 +82,9 @@
       text-decoration: line-through;
     }
   }
+}
+
+#desktop-card:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 2px 2px 1em rgba(94, 94, 94, 1);
 }
