@@ -1,7 +1,6 @@
 import React from "react";
-// import Figures from "./Figures/Figures";
-// import MobileFigures from "./MobileFigures/MobileFigures";
-import Carousel from "./Carousel/Carousel";
+import Figures from "./Figures/Figures";
+import MobileFigures from "./MobileFigures/MobileFigures";
 const Submission = () => {
   return (
     <div id="submission-container" className="container">
@@ -11,9 +10,8 @@ const Submission = () => {
         </p>
         <hr />
       </div>
-      <Carousel />
-      {/* <Figures />
-      <MobileFigures /> */}
+      <Figures />
+      <MobileFigures />
     </div>
   );
 };
