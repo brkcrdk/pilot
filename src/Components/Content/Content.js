@@ -52,3 +52,150 @@ export const slides = [
     comingSoon: true
   }
 ];
+
+export const subSlides = [
+  {
+    id: "One",
+    imgUrl: fortnite,
+    name: "Fortnite",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: true
+  },
+  {
+    id: "Two",
+    imgUrl: lol,
+    name: "League of Legends",
+    discount: "20",
+    price: "100",
+    isBonus: false,
+    comingSoon: false
+  },
+  {
+    id: "Three",
+    imgUrl: tacticforce,
+    name: "Tactic Force",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: false
+  },
+  {
+    id: "Four",
+    imgUrl: wow,
+    name: "World of Warcraft",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: true
+  },
+  {
+    id: "Five",
+    imgUrl: pubg,
+    name: "PlayerUnknown's BattleGrounds",
+    discount: "15",
+    price: "100",
+    isBonus: false,
+    comingSoon: true
+  },
+  {
+    id: "One",
+    imgUrl: fortnite,
+    name: "Fortnite",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: true
+  },
+  {
+    id: "Two",
+    imgUrl: lol,
+    name: "League of Legends",
+    discount: "20",
+    price: "100",
+    isBonus: false,
+    comingSoon: false
+  },
+  {
+    id: "Three",
+    imgUrl: tacticforce,
+    name: "Tactic Force",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: false
+  },
+  {
+    id: "Four",
+    imgUrl: wow,
+    name: "World of Warcraft",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: true
+  },
+  {
+    id: "Five",
+    imgUrl: pubg,
+    name: "PlayerUnknown's BattleGrounds",
+    discount: "15",
+    price: "100",
+    isBonus: false,
+    comingSoon: true
+  },
+  {
+    id: "One",
+    imgUrl: fortnite,
+    name: "Fortnite",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: true
+  },
+  {
+    id: "Two",
+    imgUrl: lol,
+    name: "League of Legends",
+    discount: "20",
+    price: "100",
+    isBonus: false,
+    comingSoon: false
+  },
+  {
+    id: "Three",
+    imgUrl: tacticforce,
+    name: "Tactic Force",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: false
+  },
+  {
+    id: "Four",
+    imgUrl: wow,
+    name: "World of Warcraft",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: true
+  },
+  {
+    id: "Five",
+    imgUrl: pubg,
+    name: "PlayerUnknown's BattleGrounds",
+    discount: "15",
+    price: "100",
+    isBonus: false,
+    comingSoon: true
+  },
+  {
+    id: "One",
+    imgUrl: fortnite,
+    name: "Fortnite",
+    discount: "15",
+    price: "100",
+    isBonus: true,
+    comingSoon: true
+  }
+];
