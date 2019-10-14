@@ -11,48 +11,6 @@
           box-shadow: 0 0.1px 0.5em #888888;
 }
 
-#nav-container #search-icon {
-  color: #b3b3b3;
-  cursor: pointer;
-}
-
-@media (min-width: 320px) {
-  #nav-container #search-icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    font-size: 1.3em;
-    width: 50%;
-  }
-}
-
-@media (min-width: 375px) {
-  #nav-container #search-icon {
-    width: 56%;
-  }
-}
-
-@media (min-width: 425px) {
-  #nav-container #search-icon {
-    width: 60%;
-  }
-}
-
-@media (min-width: 768px) {
-  #nav-container #search-icon {
-    width: 75%;
-  }
-}
-
-@media (min-width: 992px) {
-  #nav-container #search-icon {
-    display: none;
-  }
-}
-
 #nav-content {
   padding: 0;
   margin: 0;
