@@ -14,5 +14,10 @@
   img {
     height: 70%;
   }
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  #card-bottom {
+    display: flex;
+    // align-items: flex-end;
+    height: 100%;
+  }
 }
