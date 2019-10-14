@@ -18,7 +18,7 @@
 #desktop-figure li {
   position: relative;
   top: 1.5em;
-  background-color: #1e90ff;
+  background-color: black;
 }
 
 @media (min-width: 992px) {

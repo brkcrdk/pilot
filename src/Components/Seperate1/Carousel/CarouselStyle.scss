@@ -2,7 +2,11 @@
 
 #carousel-container {
   width: 100%;
-
+  li {
+    position: relative;
+    top: 2em;
+    background-color: black;
+  }
   img {
     width: 100%;
     padding-bottom: 1em;

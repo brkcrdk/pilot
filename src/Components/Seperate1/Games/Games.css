@@ -9,13 +9,8 @@
   color: grey;
 }
 
-.card {
-  border: none;
-  background-color: #f5f5f5;
-  border-radius: 0;
-}
-
 #mobileCards {
+  margin-top: 1em;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -32,6 +27,7 @@
 }
 
 #desktopCards {
+  margin-top: 1em;
   font-family: "Montserrat", sans-serif;
 }
 

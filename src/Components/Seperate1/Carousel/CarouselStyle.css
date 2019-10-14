@@ -7,6 +7,12 @@
   width: 100%;
 }
 
+#carousel-container li {
+  position: relative;
+  top: 2em;
+  background-color: black;
+}
+
 #carousel-container img {
   width: 100%;
   padding-bottom: 1em;

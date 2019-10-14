@@ -17,7 +17,7 @@
 #mobile-figure li {
   position: relative;
   top: 2.5em;
-  background-color: #1e90ff;
+  background-color: black;
 }
 
 @media (min-width: 320px) {
