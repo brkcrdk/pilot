@@ -6,5 +6,6 @@
 ## Used technologies in this project: 
 - Javascript
 - ReactJS
+- Bootstrap 4
 - SASS
 - Axios
