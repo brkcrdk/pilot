@@ -12,6 +12,9 @@ const Navbar = () => {
           <a className="navbar-brand" href="#?">
             <Brand />
           </a>
+          <span id="search-icon">
+            <i className="fas fa-search" />
+          </span>
           <button
             className="navbar-toggler navbar-dark"
             type="button"
