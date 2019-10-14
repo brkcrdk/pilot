@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+#goTop {
+  text-align: right;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  height: 3em;
+  width: 3em;
+  background-color: grey;
+  border-radius: 0.5em;
+  text-align: center;
+}
+#goTop > a {
+  color: orange;
+  font-size: 2em;
+  display: block;
+  transform: rotate(90deg);
+  text-decoration: none;
+}

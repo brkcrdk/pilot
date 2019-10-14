@@ -6,7 +6,7 @@ import User from "./User/User";
 import CartSearch from "./CartSearch/CartSearch";
 const Navbar = () => {
   return (
-    <div id="nav-container" className="fixed-top">
+    <div id="nav-container">
       <nav className="navbar navbar-expand-lg" id="nav-content">
         <div className="container">
           <a className="navbar-brand" href="#?">

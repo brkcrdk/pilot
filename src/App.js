@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Seperate1 from "./Components/Seperate1/Seperate1";
 import Seperate2 from "./Components/Seperate2/Seperate2";
@@ -16,6 +17,9 @@ function App() {
       <News />
       <Submission />
       <Footer />
+      <div id="goTop">
+        <a href="#nav-container">&#x276E;</a>
+      </div>
     </div>
   );
 }
