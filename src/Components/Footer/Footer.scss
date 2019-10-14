@@ -49,3 +49,33 @@
     font-size: 1.3em;
   }
 }
+
+#footer-brand {
+  p {
+    font-family: font(baloo);
+    font-size: 2.5em;
+  }
+  span {
+    position: relative;
+    top: -2em;
+    left: 1.6em;
+  }
+}
+
+#main-footer {
+  font-family: font(montSerrat);
+  .titles {
+    font-size: 1.1em;
+    font-style: italic;
+    font-family: font(montSerrat);
+  }
+  ul {
+    padding-right: 0;
+  }
+  li {
+    list-style-type: none;
+    font-size: 0.8em;
+    text-align: left;
+    width: 100%;
+  }
+}

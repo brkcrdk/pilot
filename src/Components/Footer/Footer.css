@@ -75,4 +75,36 @@
 #brands i {
   font-size: 1.3em;
 }
+
+#footer-brand p {
+  font-family: "Baloo Bhai", cursive;
+  font-size: 2.5em;
+}
+
+#footer-brand span {
+  position: relative;
+  top: -2em;
+  left: 1.6em;
+}
+
+#main-footer {
+  font-family: "Montserrat", sans-serif;
+}
+
+#main-footer .titles {
+  font-size: 1.1em;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main-footer ul {
+  padding-right: 0;
+}
+
+#main-footer li {
+  list-style-type: none;
+  font-size: 0.8em;
+  text-align: left;
+  width: 100%;
+}
 /*# sourceMappingURL=Footer.css.map */
