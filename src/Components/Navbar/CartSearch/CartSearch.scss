@@ -13,6 +13,9 @@
       left: -1em;
       padding-left: 1em;
       color: color(borders);
+      &:hover {
+        color: color(orange);
+      }
     }
     li {
       list-style-type: none;

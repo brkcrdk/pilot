@@ -29,8 +29,16 @@
   font-family: "Baloo Bhai", cursive;
 }
 
+#nav-content .dropdown-menu {
+  background-color: #303030;
+}
+
 #nav-content #navbar-links a {
   color: white;
+}
+
+#nav-content #navbar-links a:hover {
+  color: #ff5000;
 }
 
 #rightNow {

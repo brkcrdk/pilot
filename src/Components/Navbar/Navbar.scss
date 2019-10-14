@@ -19,9 +19,15 @@
   .navbar-brand {
     font-family: font(baloo);
   }
+  .dropdown-menu {
+    background-color: color(grey);
+  }
   #navbar-links {
     a {
       color: color(borders);
+      &:hover {
+        color: color(orange);
+      }
     }
   }
 }

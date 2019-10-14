@@ -20,6 +20,10 @@
   }
 }
 
+#brand-container h3:hover {
+  color: white;
+}
+
 #brand-container span {
   color: #303030;
   position: absolute;

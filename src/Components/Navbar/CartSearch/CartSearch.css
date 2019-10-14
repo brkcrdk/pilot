@@ -27,6 +27,11 @@
   color: white;
 }
 
+#search-cart #desktop li:hover,
+#search-cart #desktop i:hover {
+  color: #ff5000;
+}
+
 #search-cart #desktop li {
   list-style-type: none;
   margin: 0 1em;
