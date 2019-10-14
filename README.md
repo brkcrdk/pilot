@@ -2,4 +2,4 @@
 - Javascript
 - ReactJS
 - SASS
-- axios
+- Axios
