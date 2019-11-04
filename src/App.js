@@ -7,6 +7,11 @@ import News from "./Components/News/News";
 import Submission from "./Components/Submission/Submission";
 import Footer from "./Components/Footer/Footer";
 function App() {
+  //KEEP HEROKU APP AWAKE
+  var http = require("http");
+  setInterval(function() {
+    http.get("http://<your app name>.herokuapp.com");
+  }, 300000);
   return (
     <div className="">
       <div className="">
